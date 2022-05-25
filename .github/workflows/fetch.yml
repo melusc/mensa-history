@@ -1,0 +1,39 @@
+name: Fetch
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  pull_request:
+  schedule:
+    - cron: '0 8 * * *'
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
+
+      - name: Run
+        run: yarn start
+
+      - name: Copy data
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./data
+          publish_branch: data
+          keep_files: true
