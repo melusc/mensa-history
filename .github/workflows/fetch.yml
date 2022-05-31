@@ -6,7 +6,11 @@ on:
   workflow_dispatch:
   pull_request:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * *' # Every day at 04:00 UTC+0
+    # If it only gets uploaded on Monday
+    # make sure to get it
+    - cron: '0 6 * * 1' # Monday at 06:00 UTC+0
+    - cron: '0 8 * * 1' # Monday at 08:00 UTC+0
 
 jobs:
   fetch:
