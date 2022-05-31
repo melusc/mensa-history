@@ -33,6 +33,10 @@ jobs:
       - name: Run
         run: yarn start
 
+      - name: Get current date and tme
+        id: date
+        run: echo "::set-output name=date::$(date +"%Y-%m-%d %H:%M" --utc)"
+
       - name: Copy data
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
@@ -41,3 +45,4 @@ jobs:
           publish_dir: ./data
           publish_branch: data
           keep_files: true
+          full_commit_message: ${{ steps.date.outputs.date }}
