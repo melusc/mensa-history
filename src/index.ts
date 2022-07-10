@@ -24,8 +24,21 @@ const {url, weekNumber} = groups;
 assert(url, 'url');
 assert(weekNumber, 'weekNumber');
 
+let year = new Date().getFullYear();
+
+// If the weekNumber is high but it is still early in the year
+// it must be from the previous year.
+// Week 48 is roughly the start of December
+// < 2 is January and February
+if (Number(weekNumber) > 48 && new Date().getMonth() < 2) {
+	--year;
+}
+
 const data = await extract(url);
+
+assert(data.title.includes(String(year)));
+
 await writeFile(
-	new URL(`${weekNumber}.json`, outDir),
+	new URL(`${year}-${weekNumber}.json`, outDir),
 	JSON.stringify(data, undefined, '\t'),
 );
