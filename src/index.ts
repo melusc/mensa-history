@@ -1,40 +1,18 @@
 import assert from 'node:assert/strict';
 import {writeFile, mkdir} from 'node:fs/promises';
+import {extractMetadata} from './extract-metadata.js';
 
 import {extract} from './extract.js';
+import {getUrl} from './get-url.js';
 
 const outDir = new URL('../data/', import.meta.url);
 await mkdir(outDir, {
 	recursive: true,
 });
 
-const pageResponse = await fetch(
-	'https://www.ksasz.ch/de/service/angebote/mensa',
-);
-const pageText = await pageResponse.text();
-
-const urlMatch
-	= /<a href="(?<url>\/images\/pdf-dokumente\/mensa\/mewo(?<weekNumber>\d+)\.pdf)" target="_blank">/i.exec(
-		pageText,
-	);
-
-const groups = urlMatch?.groups;
-assert(groups, 'groups');
-const {url, weekNumber} = groups;
-assert(url, 'url');
-assert(weekNumber, 'weekNumber');
-
-let year = new Date().getFullYear();
-
-// If the weekNumber is high but it is still early in the year
-// it must be from the previous year.
-// Week 48 is roughly the start of December
-// < 2 is January and February
-if (Number(weekNumber) > 48 && new Date().getMonth() < 2) {
-	--year;
-}
-
-const data = await extract(new URL(url, 'https://www.ksasz.ch/'));
+const url = await getUrl();
+const {year, weekNumber} = extractMetadata(url);
+const data = await extract(url);
 
 assert(data.title.includes(String(year)));
 

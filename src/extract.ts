@@ -21,8 +21,7 @@ const findByRegExp = (texts: PickedText[], matcher: RegExp): PickedText =>
 export const extract = async (
 	url: URL,
 ): Promise<{title: string; menu: string[][][]}> => {
-	const pdf = await pdfJs.getDocument(url)
-		.promise;
+	const pdf = await pdfJs.getDocument(url).promise;
 	const page = await pdf.getPage(1);
 
 	const {items} = await page.getTextContent();
