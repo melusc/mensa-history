@@ -19,9 +19,9 @@ const findByRegExp = (texts: PickedText[], matcher: RegExp): PickedText =>
 		.value();
 
 export const extract = async (
-	url: string,
+	url: URL,
 ): Promise<{title: string; menu: string[][][]}> => {
-	const pdf = await pdfJs.getDocument(new URL(url, 'https://www.ksasz.ch/'))
+	const pdf = await pdfJs.getDocument(url)
 		.promise;
 	const page = await pdf.getPage(1);
 

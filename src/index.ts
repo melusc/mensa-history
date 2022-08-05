@@ -34,7 +34,7 @@ if (Number(weekNumber) > 48 && new Date().getMonth() < 2) {
 	--year;
 }
 
-const data = await extract(url);
+const data = await extract(new URL(url, 'https://www.ksasz.ch/'));
 
 assert(data.title.includes(String(year)));
 
