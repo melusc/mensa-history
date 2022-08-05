@@ -17,7 +17,7 @@
 	},
 	"dependencies": {
 		"lodash-es": "^4.17.21",
-		"pdfjs-dist": "^2.14.305"
+		"pdfjs-dist": "^2.15.349"
 	},
 	"type": "module",
 	"scripts": {
