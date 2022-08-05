@@ -14,7 +14,7 @@ const url = await getUrl();
 const {year, weekNumber} = extractMetadata(url);
 const data = await extract(url);
 
-assert(data.title.includes(String(year)));
+assert(data.title.includes(String(year)), `Title did not contain year (${year})`);
 
 await writeFile(
 	new URL(`${year}-${weekNumber}.json`, outDir),

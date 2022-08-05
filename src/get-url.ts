@@ -12,9 +12,10 @@ export const getUrl = async () => {
 		);
 
 	const groups = urlMatch?.groups;
-	assert(groups, 'groups');
+	assert(groups, 'Could not find anchor with url');
 	const {url} = groups;
-	assert(url, 'url');
+	// This cannot fail, it's a type guard
+	assert(url, 'Could net extract url');
 
 	return new URL(url, mensaUrl);
 };

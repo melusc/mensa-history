@@ -11,8 +11,9 @@ export const extractMetadata = (
 
 	const groups = match?.groups;
 
-	assert(groups, 'groups');
+	assert(groups, 'Could not get week number');
 	const {weekNumber} = groups;
+	// This cannot fail, it's a type guard
 	assert(weekNumber, 'weekNumber');
 
 	let year = new Date().getFullYear();
