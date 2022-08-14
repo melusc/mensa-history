@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
+import {inspect} from 'node:util';
 
-import {chain, findIndex, findLastIndex} from 'lodash-es';
+import {chain, findLastIndex} from 'lodash-es';
 import pdfJs from 'pdfjs-dist';
 import {TextItem} from 'pdfjs-dist/types/src/display/api.js';
 
@@ -10,17 +11,187 @@ type PickedText = {
 	bottom: number;
 };
 
-const findByRegExp = (texts: PickedText[], matcher: RegExp): PickedText =>
+const lte = (a: number, b: number, precision = 2) =>
+	// prettier-ignore
+	Math.round(a * (10 ** precision)) <= Math.round(b * (10 ** precision));
+
+const join = (items: string[]) => items.join(' ').replace(/\s+/g, ' ').trim();
+
+const findByRegExp = (texts: PickedText[], regex: RegExp): PickedText =>
 	chain(texts)
-		.find(({str}) => matcher.test(str))
+		.find(({str}) => regex.test(str))
 		.tap(m => {
-			assert(m, String(matcher));
+			assert(m, String(regex));
 		})
 		.value();
 
-export const extract = async (
-	url: URL,
-): Promise<{title: string; menu: string[][][]}> => {
+const getDays = (
+	texts: PickedText[],
+): {
+	dayPositions: number[];
+	dayTitles: string[];
+	dayBottom: number;
+} => {
+	const byDayName = chain([
+		/montag/i,
+		/dienstag/i,
+		/mittwoch/i,
+		/donnerstag/i,
+		/freitag/i,
+	])
+		.map(regex => findByRegExp(texts, regex))
+		.value();
+
+	const daysBottom = chain(byDayName)
+		.map(({bottom}) => bottom)
+		.thru(b => new Set(b))
+		.tap(set => {
+			assert(set.size === 1, 'More than one size');
+		})
+		.thru(set => [...set][0]!)
+		.value();
+	const daysLeft = byDayName.map(({left}) => left);
+
+	const days = chain(texts)
+		.filter(({bottom}) => bottom === daysBottom)
+		.tap(console.log)
+		.groupBy(({left}) => findLastIndex(daysLeft, c => lte(c, left)))
+		.value();
+
+	const titles = chain(days)
+		.map(day => join(day.map(({str}) => str)))
+		.value();
+
+	return {
+		dayTitles: titles,
+		dayPositions: daysLeft,
+		dayBottom: daysBottom,
+	};
+};
+
+type SingleItem = {
+	readonly title: string;
+	readonly menu: readonly string[];
+	// eslint-disable-next-line @typescript-eslint/ban-types
+	readonly nutritional: null | readonly string[];
+	readonly price: readonly string[];
+};
+
+type WeekMenu = SingleItem[][];
+
+const menuTitlesRegex
+	= /^\s*(?:suppä|wältreis|karma|streetfood|salatbar|süesses)\s*$/i;
+
+const getMenus = (
+	texts: PickedText[],
+	dayBottom: number,
+	dayPositions: number[],
+): WeekMenu => {
+	const filtered = chain(texts)
+		.filter(({bottom}) => bottom < dayBottom)
+		.value();
+
+	const titlePositions = chain(filtered)
+		.filter(({str}) => menuTitlesRegex.test(str))
+		.groupBy(({str}) => str.toLowerCase().trim())
+		.map(items => Math.max(...items.map(({bottom}) => bottom)))
+		.value();
+
+	const groupedByDay = chain(filtered)
+		.groupBy(({left}) => findLastIndex(dayPositions, l => lte(l, left, 1)))
+		.values()
+		.value();
+
+	const groupedByType = groupedByDay.map(day =>
+		chain(day)
+			.groupBy(({bottom}) => findLastIndex(titlePositions, b => lte(bottom, b)))
+			.values()
+			.value(),
+	);
+
+	const groupedByRow = groupedByType.map(day =>
+		day.map(menu =>
+			chain(menu)
+				.groupBy(({bottom}) => Math.round(bottom))
+				.entries()
+				.orderBy(v => Number(v[0]), ['desc'])
+				.map(([, value]) => join(value.map(({str}) => str)))
+				.tap(menu => {
+					// Title
+					// Menu
+					// optional nutritional value
+					// Price
+					assert(menu.length >= 3, `menu.length <= 1: ${JSON.stringify(menu)}`);
+				})
+				.value(),
+		),
+	);
+
+	return groupedByRow.map(day =>
+		day.map(menu => {
+			menu = menu.filter(Boolean);
+			// Title: One line
+			// ...Menu: Many lines
+			// ...nutritional value: Probably only one line
+			// ...price: one or two lines
+
+			const priceFirstIndex = menu.findIndex(
+				row =>
+					/chf/i.test(row)
+					// To not match nutritional values by accident
+					// it should not be too general
+					// Only "soup" and "dessert" prices are without "CHF" and both are 3.50
+					|| row.trim() === '3.50',
+			);
+
+			// Optional: maybe -1
+			const nutritionalFirstIndex = menu.findIndex(row => /kcal/i.test(row));
+
+			const inspected = inspect(menu);
+			assert(priceFirstIndex !== -1, `Price not found ${inspected}`);
+
+			assert(
+				priceFirstIndex !== nutritionalFirstIndex,
+				`Price matched nutritional values: ${inspected}`,
+			);
+
+			if (nutritionalFirstIndex !== -1) {
+				assert(
+					nutritionalFirstIndex < priceFirstIndex,
+					`Price was before nutritional ${inspected}`,
+				);
+			}
+
+			const menuTo
+				= nutritionalFirstIndex === -1 ? priceFirstIndex : nutritionalFirstIndex;
+
+			const title = menu[0];
+
+			assert(
+				title && menuTitlesRegex.test(title),
+				`Unexpected title: "${title!}", ${inspected}`,
+			);
+
+			return {
+				title: menu[0]!,
+				menu: menu.slice(1, menuTo),
+				nutritional:
+					nutritionalFirstIndex === -1
+						? null
+						: menu.slice(nutritionalFirstIndex, priceFirstIndex),
+				price: menu.slice(priceFirstIndex),
+			};
+		}),
+	);
+};
+
+export type FullMenu = {
+	menu: WeekMenu;
+	title: string;
+	days: string[];
+};
+
+export const extract = async (url: URL): Promise<FullMenu> => {
 	const pdf = await pdfJs.getDocument(url).promise;
 	const page = await pdf.getPage(1);
 
@@ -43,77 +214,18 @@ export const extract = async (
 		.orderBy(['bottom', 'left'], ['desc', 'asc'])
 		.value();
 
-	const titleBottom = findByRegExp(texts, /menü der woche/i).bottom;
+	const titleBottom = findByRegExp(texts, /restaurant eldora/i).bottom;
 	const title = chain(texts)
 		.filter(({bottom}) => bottom === titleBottom)
 		.map(({str}) => str)
-		.join('')
+		.thru(items => items.join('').replace(/\s+/g, ' ').trim())
 		.value();
 
-	const borderBottom = findByRegExp(texts, /^\s*deklaration:/i).bottom;
-	const borderTop = findByRegExp(texts, /^\s*montag/i).bottom;
-	const borderLeft = findByRegExp(texts, /^menü 1/i).left;
-
-	const dayIndices = chain(texts)
-		.filter(({str}) =>
-			/^(?:montag|dienstag|mittwoch|donnerstag|freitag)$/i.test(str),
-		)
-		.map(({bottom}) => bottom)
-		.tap(r => {
-			assert.equal(r.length, 5);
-		})
-		.value();
-
-	const menuIndices = chain(texts)
-		.filter(
-			({str, bottom}) =>
-				/^(?:menü [12]|vegi)$/i.test(str) && bottom > borderTop, // Sometimes there's things like "vegi-burger"
-			// that get's split in to "vegi", "-", "burger"
-			// therefore we also need to make sure it's high enough
-		)
-		.tap(c => {
-			assert.equal(c.length, 3);
-		})
-		.map(({left}) => left)
-		.value();
-
-	const filtered = chain(texts)
-		.filter(
-			({bottom, left}) =>
-				left >= borderLeft && bottom > borderBottom && bottom <= borderTop,
-		)
-		.tap(filtered => {
-			assert(filtered.length > 0);
-		});
-	const dayGrouped = filtered
-		// Group by day
-		.groupBy(({bottom}) => findIndex(dayIndices, r => r < bottom));
-	const menuGrouped = dayGrouped.map(day =>
-		chain(day)
-			// Group by menu
-			.groupBy(({left}) => findLastIndex(menuIndices, c => c <= left))
-			.map(menu =>
-				chain(menu)
-					// Group by row in block
-					.groupBy(({bottom}) => bottom)
-					.map(row =>
-						row
-							.map(({str}) => str)
-							.join('')
-							.trim(),
-					)
-					.filter(row => row.length > 0)
-					.value(),
-			)
-			.tap(day => {
-				// Things like "Happy Easter" is length 1
-				assert(day.length === 3 || day.length === 1);
-			})
-			.value(),
-	);
+	const {dayBottom, dayPositions, dayTitles} = getDays(texts);
 
 	return {
 		title,
-		menu: menuGrouped.value(),
+		days: dayTitles,
+		menu: getMenus(texts, dayBottom, dayPositions),
 	};
 };

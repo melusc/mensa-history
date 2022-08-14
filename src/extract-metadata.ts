@@ -5,16 +5,17 @@ export const extractMetadata = (
 ): {
 	weekNumber: string;
 	year: string;
+	location: 'P' | 'N';
 } => {
-	const match = /mewo(?<weekNumber>\d+)\.pdf/i.exec(url.href);
-	console.log(url.href);
+	const match = /mewo(?<weekNumber>\d+)(?<location>n?)\.pdf/i.exec(url.href);
 
 	const groups = match?.groups;
 
 	assert(groups, 'Could not get week number');
-	const {weekNumber} = groups;
+	const {weekNumber, location} = groups;
 	// This cannot fail, it's a type guard
 	assert(weekNumber, 'weekNumber');
+	assert(typeof location === 'string', 'location');
 
 	let year = new Date().getFullYear();
 
@@ -26,5 +27,9 @@ export const extractMetadata = (
 		--year;
 	}
 
-	return {year: String(year), weekNumber};
+	return {
+		year: String(year),
+		weekNumber,
+		location: (location.toUpperCase() as 'N') || 'P',
+	};
 };
