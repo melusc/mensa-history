@@ -54,7 +54,6 @@ const getDays = (
 
 	const days = chain(texts)
 		.filter(({bottom}) => bottom === daysBottom)
-		.tap(console.log)
 		.groupBy(({left}) => findLastIndex(daysLeft, c => lte(c, left)))
 		.value();
 
