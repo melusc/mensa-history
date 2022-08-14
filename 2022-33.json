@@ -1,0 +1,632 @@
+{
+	"data": [
+		{
+			"location": "P",
+			"title": "Restaurant Eldora - Schule Pfäffikon",
+			"days": [
+				"Montag, 15. August",
+				"Dienstag, 16. August",
+				"Mittwoch, 17. August",
+				"Donnerstag, 18. August",
+				"Freitag, 19. August"
+			],
+			"menu": [
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Heute bleibt das Restaurant aufgrund eines",
+							"Feiertags geschlossen."
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Gemüsebouillon mit Backerbsen und",
+							"Gemüsestreifen"
+						],
+						"nutritional": [
+							"ca. 69.6 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Riz Casimir",
+							"Pouletgeschnetzeltes",
+							"Currysauce",
+							"Reis",
+							"Früchte und Mandeln"
+						],
+						"nutritional": [
+							"ca. 649.9 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gedämpfte Kartoffel-Gnocchi",
+							"Ricottasauce mit Eierschwämmli",
+							"Konfierte Cherrytomaten",
+							"Gebackener Broccoli"
+						],
+						"nutritional": [
+							"ca. 599.2 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Heute bleibt der Menu Counter geschlossen."
+						],
+						"nutritional": null,
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Tomatencrèmesuppe"
+						],
+						"nutritional": [
+							"ca. 121.5 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"G'hackets Hörnli",
+							"Rindsgehacktes",
+							"Hörnli",
+							"Apfelmus und Reibkäse"
+						],
+						"nutritional": [
+							"ca. 785.4 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gebratener Halloumi",
+							"Kräutersalat",
+							"Zwiebel-Kartoffeln",
+							"Geschmortes Gemüse"
+						],
+						"nutritional": [
+							"ca. 763.8 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Cheeseburger",
+							"Rindfleischpatty, Sesam-Bun, Eisbergsalat,",
+							"Tomate, Essiggurke, Cheddarkäse und",
+							"Cocktailsauce",
+							"Pommes frites"
+						],
+						"nutritional": [
+							"ca. 1258.8 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Panna cotta mit Himbeersauce"
+						],
+						"nutritional": [
+							"ca. 264.5 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Waldpilzcrèmesuppe"
+						],
+						"nutritional": [
+							"ca. 133.7 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Gebackener Ofenfleischkäse",
+							"Rotweinsauce",
+							"Bratkartoffeln",
+							"Erbsli und Rüebli"
+						],
+						"nutritional": [
+							"ca. 670.3 kcal / Fleischkäse (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Stroganoff Pappardelle mit planted Chicken,",
+							"Peperoni, Pilzen, Spinat und Essiggurken"
+						],
+						"nutritional": [
+							"ca. 628.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Cheeseburger",
+							"Rindfleischpatty, Sesam-Bun, Eisbergsalat,",
+							"Tomate, Essiggurke, Cheddarkäse und",
+							"Cocktailsauce",
+							"Pommes frites"
+						],
+						"nutritional": [
+							"ca. 1258.8 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Gemüsecrèmesuppe"
+						],
+						"nutritional": [
+							"ca. 82.0 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Pouletschenkelsteak",
+							"Kräuterbutter",
+							"Kritharaki",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 815.3 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gemüse-Frühlingsrollen",
+							"Sweet-Chili Sauce",
+							"Gebratener Reis mit Ei"
+						],
+						"nutritional": [
+							"ca. 676.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Cheeseburger",
+							"Rindfleischpatty, Sesam-Bun, Eisbergsalat,",
+							"Tomate, Essiggurke, Cheddarkäse und",
+							"Cocktailsauce",
+							"Pommes frites"
+						],
+						"nutritional": [
+							"ca. 1258.8 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Fruchtsalat"
+						],
+						"nutritional": [
+							"ca. 54.0 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				]
+			]
+		},
+		{
+			"location": "N",
+			"title": "Restaurant Eldora - Schule Nuolen",
+			"days": [
+				"Montag, 15. August",
+				"Dienstag, 16. August",
+				"Mittwoch, 17. August",
+				"Donnerstag, 18. August",
+				"Freitag, 19. August"
+			],
+			"menu": [
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Heute bleibt das Restaurant aufgrund eines",
+							"Feiertags geschlossen."
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Heute bleibt das Restaurant geschlossen."
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Tomatencrèmesuppe"
+						],
+						"nutritional": [
+							"ca. 121.5 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"G'hackets Hörnli",
+							"Rindsgehacktes",
+							"Hörnli",
+							"Apfelmus und Reibkäse"
+						],
+						"nutritional": [
+							"ca. 785.4 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gebratener Halloumi",
+							"Kräutersalat",
+							"Zwiebel-Kartoffeln",
+							"Geschmortes Gemüse"
+						],
+						"nutritional": [
+							"ca. 763.8 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Cheeseburger",
+							"Rindfleischpatty, Sesam-Bun, Eisbergsalat,",
+							"Tomate, Essiggurke, Cheddarkäse und",
+							"Cocktailsauce",
+							"Pommes frites"
+						],
+						"nutritional": [
+							"ca. 1258.8 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Panna cotta mit Himbeersauce"
+						],
+						"nutritional": [
+							"ca. 264.5 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Waldpilzcrèmesuppe"
+						],
+						"nutritional": [
+							"ca. 133.7 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Gebackener Ofenfleischkäse",
+							"Rotweinsauce",
+							"Bratkartoffeln",
+							"Erbsli und Rüebli"
+						],
+						"nutritional": [
+							"ca. 670.3 kcal / Fleischkäse (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Stroganoff Pappardelle mit planted Chicken,",
+							"Peperoni, Pilzen, Spinat und Essiggurken"
+						],
+						"nutritional": [
+							"ca. 628.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Cheeseburger",
+							"Rindfleischpatty, Sesam-Bun, Eisbergsalat,",
+							"Tomate, Essiggurke, Cheddarkäse und",
+							"Cocktailsauce",
+							"Pommes frites"
+						],
+						"nutritional": [
+							"ca. 1258.8 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPÄ",
+						"menu": [
+							"Gemüsecrèmesuppe"
+						],
+						"nutritional": [
+							"ca. 82.0 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Pouletschenkelsteak",
+							"Kräuterbutter",
+							"Kritharaki",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 815.3 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gemüse-Frühlingsrollen",
+							"Sweet-Chili Sauce",
+							"Gebratener Reis mit Ei"
+						],
+						"nutritional": [
+							"ca. 676.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Cheeseburger",
+							"Rindfleischpatty, Sesam-Bun, Eisbergsalat,",
+							"Tomate, Essiggurke, Cheddarkäse und",
+							"Cocktailsauce",
+							"Pommes frites"
+						],
+						"nutritional": [
+							"ca. 1258.8 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Fruchtsalat"
+						],
+						"nutritional": [
+							"ca. 54.0 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				]
+			]
+		}
+	],
+	"version": 2
+}
