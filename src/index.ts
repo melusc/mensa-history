@@ -15,6 +15,4 @@ const promises = urls.map(async url => {
 	};
 });
 
-await Promise.all(promises);
-
 await writeJson(await Promise.all(promises));
