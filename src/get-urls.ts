@@ -2,24 +2,33 @@ import assert from 'node:assert/strict';
 
 const mensaUrl = new URL('https://www.ksasz.ch/de/service/angebote/mensa');
 
-export const getUrls = async (): Promise<URL[]> => {
+export const getUrls = async (): Promise<
+	Array<{
+		url: URL;
+		title: string;
+	}>
+> => {
 	const pageResponse = await fetch(mensaUrl);
 	const pageText = await pageResponse.text();
 
 	const urlMatches = pageText.matchAll(
-		/<a href="(?<url>\/images\/pdf-dokumente\/mensa\/mewo\d+n?\.pdf)" target="_blank">/gi,
+		/<a href="(?<url>.+?\/mensa\/.+?)" target="_blank">(?<title>.+?)<\/a>/gi,
 	);
 
-	const urls: URL[] = [];
+	const result: Array<{
+		url: URL;
+		title: string;
+	}> = [];
 	for (const match of urlMatches ?? []) {
 		const {groups} = match;
 		assert(groups, 'Could not find anchor with url');
-		const {url} = groups;
+		const {url, title} = groups;
 		// This cannot fail, it's a type guard
 		assert(url, 'Could net extract url');
+		assert(title, 'Could net extract title');
 
-		urls.push(new URL(url, mensaUrl));
+		result.push({url: new URL(url, mensaUrl), title});
 	}
 
-	return urls;
+	return result;
 };

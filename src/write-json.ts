@@ -11,6 +11,7 @@ export async function writeJson(
 		data: FullMenu;
 		location: string;
 		weekNumber: string;
+		title: string;
 		year: string;
 	}>,
 ) {
@@ -21,7 +22,8 @@ export async function writeJson(
 	> = [];
 	const years: string[] = [];
 	const weekNumbers: string[] = [];
-	for (const {data, year, weekNumber, location} of items) {
+	const titles: string[] = [];
+	for (const {data, year, weekNumber, location, title} of items) {
 		result.push({
 			location,
 			...data,
@@ -29,6 +31,7 @@ export async function writeJson(
 
 		years.push(year);
 		weekNumbers.push(weekNumber);
+		titles.push(title);
 	}
 
 	assert(
@@ -45,6 +48,7 @@ export async function writeJson(
 		new URL(`${years[0]!}-${weekNumbers[0]!}.json`, outDir),
 		JSON.stringify(
 			{
+				titles,
 				data: result,
 				version: 2,
 			},

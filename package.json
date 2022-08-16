@@ -8,6 +8,7 @@
 	"private": true,
 	"devDependencies": {
 		"@lusc/tsconfig": "^2.0.0",
+		"@types/he": "^1.1.2",
 		"@types/lodash-es": "^4.17.6",
 		"@types/node": "^18.7.2",
 		"prettier": "^2.7.1",
@@ -16,6 +17,7 @@
 		"xo": "^0.51.0"
 	},
 	"dependencies": {
+		"he": "^1.2.0",
 		"lodash-es": "^4.17.21",
 		"pdfjs-dist": "^2.15.349"
 	},

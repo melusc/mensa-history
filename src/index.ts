@@ -1,3 +1,5 @@
+import he from 'he';
+
 import {extractMetadata} from './extract-metadata.js';
 
 import {extract} from './extract.js';
@@ -6,11 +8,13 @@ import {writeJson} from './write-json.js';
 
 const urls = await getUrls();
 
-const promises = urls.map(async url => {
+const promises = urls.map(async ({url, title}) => {
+	const metadata = extractMetadata(url);
 	const data = await extract(url);
 
 	return {
-		...extractMetadata(url),
+		...metadata,
+		title: he.decode(title),
 		data,
 	};
 });
