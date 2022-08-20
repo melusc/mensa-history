@@ -79,7 +79,7 @@ type SingleItem = {
 type WeekMenu = SingleItem[][];
 
 const menuTitlesRegex
-	= /^\s*(?:suppä|wältreis|karma|streetfood|salatbar|süesses)\s*$/i;
+	= /^\s*(?:supp[äe]|w[äe]ltreise?|karma|streetfood|salatbar|süe?sses)\s*$/i;
 
 const getMenus = (
 	texts: PickedText[],
@@ -105,6 +105,12 @@ const getMenus = (
 		chain(day)
 			.groupBy(({bottom}) => findLastIndex(titlePositions, b => lte(bottom, b)))
 			.values()
+			.tap(day => {
+				assert(
+					day.length <= 6 && day.length > 0,
+					`Unexpected day.length: ${inspect(day)}`,
+				);
+			})
 			.value(),
 	);
 
