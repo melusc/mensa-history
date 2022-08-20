@@ -1,0 +1,817 @@
+{
+	"titles": [
+		"Wochenmenü Standort Pfäffikon vom 22. - 26. August 2022",
+		"Wochenmenü Standort Nuolen vom 22. - 26. August 2022"
+	],
+	"data": [
+		{
+			"location": "P",
+			"title": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"days": [
+				"Montag, 22. August",
+				"Dienstag, 23. August",
+				"Mittwoch, 24. August",
+				"Donnerstag, 25. August",
+				"Freitag, 26. August"
+			],
+			"menu": [
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Rindsgeschnetzeltes",
+							"Estragonrahmsauce",
+							"Nudeln",
+							"Grüne Bohnen"
+						],
+						"nutritional": [
+							"ca. 651.4 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Pitabrot gefüllt mit Falafel und Sesamsauce",
+							"Orientalischer Gemüsesalat mit Petersilie,",
+							"Minze und Zitrone"
+						],
+						"nutritional": [
+							"ca. 747.2 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Kalbsbratwurst",
+							"Zwiebelsauce",
+							"Rösti",
+							"Blumenkohl polnische Art"
+						],
+						"nutritional": [
+							"ca. 847.8 kcal / Wurst (Schwein, Kalb):",
+							"Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gebratener Tofu",
+							"Rote Thai-Currysauce",
+							"Basmatireis",
+							"Asiatisches Gemüse",
+							"Mungosprossen und Koriander"
+						],
+						"nutritional": [
+							"ca. 710.3 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Caramelchöpfli mit Schlagrahm und gerösteten",
+							"Mandeln"
+						],
+						"nutritional": [
+							"ca. 192.5 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Kalbsragout",
+							"Rosmarinsauce",
+							"Langkornreis mit Erbsen",
+							"Ofen-Rüebli"
+						],
+						"nutritional": [
+							"ca. 705.5 kcal / Kalb: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Vegetarische Älplermagronen",
+							"mit Käserahmsauce, Kartoffeln, Zwiebeln und",
+							"Apfelmus"
+						],
+						"nutritional": [
+							"ca. 885.0 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Zitronen-Pouletbrust",
+							"Vegane Salsa verde",
+							"Potato Wedges",
+							"Gebackene Zucchetti"
+						],
+						"nutritional": [
+							"ca. 647.9 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gemüse-Nuggets",
+							"Pastasalat mit Vollkorn-Spiralen, Oliven,",
+							"Peperoni, Broccoli und Basilikumdressing",
+							"Grilltomate"
+						],
+						"nutritional": [
+							"ca. 784.8 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Berliner"
+						],
+						"nutritional": [
+							"ca. 265.1 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Meerfisch-Knusperli",
+							"Tartarsauce",
+							"Salzkartoffeln",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 766.4 kcal / Fisch (Seehecht, Merlan,",
+							"Seelachs): Südostatlantik"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Hirse-Gemüsetätschli",
+							"Avocado-Tomaten-Dip",
+							"Vollkorn-Reis",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 636.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				]
+			]
+		},
+		{
+			"location": "N",
+			"title": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"days": [
+				"Montag, 22. August",
+				"Dienstag, 23. August",
+				"Mittwoch, 24. August",
+				"Donnerstag, 25. August",
+				"Freitag, 26. August"
+			],
+			"menu": [
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Rindsgeschnetzeltes",
+							"Estragonrahmsauce",
+							"Nudeln",
+							"Grüne Bohnen"
+						],
+						"nutritional": [
+							"ca. 651.4 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Pitabrot gefüllt mit Falafel und Sesamsauce",
+							"Orientalischer Gemüsesalat mit Petersilie,",
+							"Minze und Zitrone"
+						],
+						"nutritional": [
+							"ca. 747.2 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Kalbsbratwurst",
+							"Zwiebelsauce",
+							"Rösti",
+							"Blumenkohl polnische Art"
+						],
+						"nutritional": [
+							"ca. 847.8 kcal / Wurst (Schwein, Kalb):",
+							"Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gebratener Tofu",
+							"Rote Thai-Currysauce",
+							"Basmatireis",
+							"Asiatisches Gemüse",
+							"Mungosprossen und Koriander"
+						],
+						"nutritional": [
+							"ca. 710.3 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Caramelchöpfli mit Schlagrahm und gerösteten",
+							"Mandeln"
+						],
+						"nutritional": [
+							"ca. 192.5 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Kalbsragout",
+							"Rosmarinsauce",
+							"Langkornreis mit Erbsen",
+							"Ofen-Rüebli"
+						],
+						"nutritional": [
+							"ca. 705.5 kcal / Kalb: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Vegetarische Älplermagronen",
+							"mit Käserahmsauce, Kartoffeln, Zwiebeln und",
+							"Apfelmus"
+						],
+						"nutritional": [
+							"ca. 885.0 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Zitronen-Pouletbrust",
+							"Salsa verde",
+							"Potato Wedges",
+							"Gebackene Zucchetti"
+						],
+						"nutritional": [
+							"ca. 854.7 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gemüse-Nuggets",
+							"Pastasalat mit Vollkorn-Spiralen, Oliven,",
+							"Peperoni, Broccoli und Basilikumdressing",
+							"Grilltomate"
+						],
+						"nutritional": [
+							"ca. 784.8 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Berliner"
+						],
+						"nutritional": [
+							"ca. 265.1 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "SUPPE",
+						"menu": [
+							"Tagessuppe"
+						],
+						"nutritional": null,
+						"price": [
+							"3.50"
+						]
+					},
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Meerfisch-Knusperli",
+							"Tartarsauce",
+							"Salzkartoffeln",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 766.4 kcal / Fisch (Seehecht, Merlan,",
+							"Seelachs): Südostatlantik"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Hirse-Gemüsetätschli",
+							"Avocado-Tomaten-Dip",
+							"Vollkorn-Reis",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 636.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Pizza Margherita",
+							"mit Mozzarella",
+							"oder",
+							"Pizza Prosciutto",
+							"mit Vorderschinken und Mozzarella"
+						],
+						"nutritional": [
+							"ca. 432.3 kcal / Schinken (Schwein): Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				]
+			]
+		}
+	],
+	"version": 2
+}
