@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {mkdir, writeFile} from 'node:fs/promises';
 import {inspect} from 'node:util';
 
-import {FullMenu} from './extract.js';
+import type {FullMenu} from './extract.js';
 
 const outDir = new URL('../data/', import.meta.url);
 
