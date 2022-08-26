@@ -3,7 +3,7 @@ import {inspect} from 'node:util';
 
 import {chain, findLastIndex} from 'lodash-es';
 import pdfJs from 'pdfjs-dist';
-import {TextItem} from 'pdfjs-dist/types/src/display/api.js';
+import type {TextItem} from 'pdfjs-dist/types/src/display/api.js';
 
 type PickedText = {
 	str: string;
