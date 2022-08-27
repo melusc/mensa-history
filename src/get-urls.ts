@@ -12,7 +12,7 @@ export const getUrls = async (): Promise<
 	const pageText = await pageResponse.text();
 
 	const urlMatches = pageText.matchAll(
-		/<a href="(?<url>.+?\/mensa\/.+?)" target="_blank">(?<title>.+?)<\/a>/gi,
+		/<a href="(?<url>.+?\/mensa\/.+?)".*?>(?<title>.+?)<\/a>/gi,
 	);
 
 	const result: Array<{
