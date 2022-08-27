@@ -5,6 +5,8 @@ import {chain, findLastIndex} from 'lodash-es';
 import pdfJs from 'pdfjs-dist';
 import type {TextItem} from 'pdfjs-dist/types/src/display/api.js';
 
+import type {WeekMenu} from './types.js';
+
 type PickedText = {
 	str: string;
 	left: number;
@@ -68,24 +70,12 @@ const getDays = (
 	};
 };
 
-type SingleItem = {
-	readonly title: string;
-	readonly menu: readonly string[];
-	// eslint-disable-next-line @typescript-eslint/ban-types
-	readonly nutritional: null | readonly string[];
-	readonly price: readonly string[];
-};
-
-type WeekMenu = SingleItem[][];
-
 const menuTitlesRegex
 	= /^\s*(?:supp[äe]|w[äe]ltreise?|karma|streetfood|salatbar|süe?sses)\s*$/i;
 
-const getMenus = (
-	texts: PickedText[],
-	dayBottom: number,
-	dayPositions: number[],
-): WeekMenu => {
+const getMenus = (texts: PickedText[]): WeekMenu => {
+	const {dayBottom, dayPositions, dayTitles} = getDays(texts);
+
 	const filtered = chain(texts)
 		.filter(({bottom}) => bottom < dayBottom)
 		.value();
@@ -126,13 +116,19 @@ const getMenus = (
 					// Menu
 					// optional nutritional value
 					// Price
-					assert(menu.length >= 3, `menu.length <= 1: ${JSON.stringify(menu)}`);
+					assert(menu.length >= 3, `menu.length <= 2: ${JSON.stringify(menu)}`);
 				})
 				.value(),
 		),
 	);
 
-	return groupedByRow.map(day =>
+	const getDayTitle = (i: number) => {
+		const dayTitle = dayTitles[i];
+		assert(dayTitle, `${i} not in ${inspect(dayTitles)}.`);
+		return dayTitle;
+	};
+
+	const getDayMenu = (day: string[][]) =>
 		day.map(menu => {
 			menu = menu.filter(Boolean);
 			// Title: One line
@@ -186,17 +182,20 @@ const getMenus = (
 						: menu.slice(nutritionalFirstIndex, priceFirstIndex),
 				price: menu.slice(priceFirstIndex),
 			};
-		}),
-	);
+		});
+
+	return groupedByRow.map((day, i) => ({
+		day: getDayTitle(i),
+		menu: getDayMenu(day),
+	}));
 };
 
-export type FullMenu = {
-	menu: WeekMenu;
-	title: string;
-	days: string[];
-};
-
-export const extract = async (url: URL): Promise<FullMenu> => {
+export const extract = async (
+	url: URL,
+): Promise<{
+	menus: WeekMenu;
+	pdfTitle: string;
+}> => {
 	const pdf = await pdfJs.getDocument(url).promise;
 	const page = await pdf.getPage(1);
 
@@ -226,11 +225,8 @@ export const extract = async (url: URL): Promise<FullMenu> => {
 		.thru(items => items.join('').replace(/\s+/g, ' ').trim())
 		.value();
 
-	const {dayBottom, dayPositions, dayTitles} = getDays(texts);
-
 	return {
-		title,
-		days: dayTitles,
-		menu: getMenus(texts, dayBottom, dayPositions),
+		pdfTitle: title,
+		menus: getMenus(texts),
 	};
 };
