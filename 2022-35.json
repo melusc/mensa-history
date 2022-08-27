@@ -1,6 +1,7 @@
 {
 	"titles": [
-		"Wochenmenü Standort Pfäffikon vom 29. August - 2. September 2022"
+		"Wochenmenü Standort Pfäffikon vom 29. August - 2. September 2022",
+		"Wochenmenü Standort Nuolen vom 29. August - 2. September  2022"
 	],
 	"data": [
 		{
@@ -97,6 +98,347 @@
 						],
 						"nutritional": [
 							"ca. 684.6 kcal / Schwein: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Veganes Kichererbsen-Curry Chana Masala",
+							"Couscous",
+							"Dattel-Chutney",
+							"Papadam"
+						],
+						"nutritional": [
+							"ca. 732.4 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Chicken Nuggets",
+							"Potato Wedges",
+							"Cocktailsauce"
+						],
+						"nutritional": [
+							"ca. 939.6 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Nasi Goreng",
+							"Gebratener Reis mit Trutenstreifen, Gemüse,",
+							"Kroepoek und Koriander"
+						],
+						"nutritional": [
+							"ca. 509.9 kcal / Trute: Frankreich"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Gebackener panierter Weichkäse",
+							"Kräuter-Quark-Salsa",
+							"Chopped Salad"
+						],
+						"nutritional": [
+							"ca. 618.6 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Chicken Nuggets",
+							"Potato Wedges",
+							"Cocktailsauce"
+						],
+						"nutritional": [
+							"ca. 939.6 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Cervelat-Cordon bleu mit Käse und Speck",
+							"Senfsauce",
+							"Rosmarinkartoffeln",
+							"Ratatouille"
+						],
+						"nutritional": [
+							"ca. 673.2 kcal / Wurst (Schwein, Rind):",
+							"Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Soja-Weizen-Geschnetzeltes",
+							"Sweet and Sour Sauce",
+							"mit Ananas und Peperoni",
+							"Sesamreis",
+							"Gebratenes Gemüse"
+						],
+						"nutritional": [
+							"ca. 712.8 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Chicken Nuggets",
+							"Potato Wedges",
+							"Cocktailsauce"
+						],
+						"nutritional": [
+							"ca. 939.6 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					}
+				],
+				[
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Kalbs-Hackfleischkugeln",
+							"Rahmsauce",
+							"Langkornreis",
+							"Tagesgemüse"
+						],
+						"nutritional": [
+							"ca. 764.6 kcal / Kalb: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Tortellini mit Spinat-Ricotta-Füllung",
+							"Tomatensauce",
+							"Gebackenes mediterranes Gemüse",
+							"Grana Padano gerieben"
+						],
+						"nutritional": [
+							"ca. 667.3 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Chicken Nuggets",
+							"Potato Wedges",
+							"Cocktailsauce"
+						],
+						"nutritional": [
+							"ca. 939.6 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Schoggicrème"
+						],
+						"nutritional": [
+							"ca. 159.9 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				]
+			]
+		},
+		{
+			"location": "N",
+			"title": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"days": [
+				"Montag, 29. August",
+				"Dienstag, 30. August",
+				"Mittwoch, 31. August",
+				"Donnerstag, 01. September",
+				"Freitag, 02. September"
+			],
+			"menu": [
+				[
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Lasagne verdi al forno",
+							"mit Rindfleisch, Béchamelsauce",
+							"und Grana Padano"
+						],
+						"nutritional": [
+							"ca. 643.5 kcal / Rind: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "KARMA",
+						"menu": [
+							"Tortilla mit Kartoffeln, Peperoni und Zwiebeln",
+							"Kerbelquark",
+							"Tomatensalat mit Pistazien",
+							"Marinierter Rucola"
+						],
+						"nutritional": [
+							"ca. 419.8 kcal"
+						],
+						"price": [
+							"Lernende CHF 10.00 / Lehrpers. CHF",
+							"15.00"
+						]
+					},
+					{
+						"title": "STREETFOOD",
+						"menu": [
+							"Chicken Nuggets",
+							"Potato Wedges",
+							"Cocktailsauce"
+						],
+						"nutritional": [
+							"ca. 939.6 kcal / Poulet: Schweiz"
+						],
+						"price": [
+							"Lernende CHF 8.00 / Lehrpers. CHF",
+							"13.00"
+						]
+					},
+					{
+						"title": "SALATBAR",
+						"menu": [
+							"Täglich frische Rohkost- und Blattsalate mit",
+							"verschiedenen Toppings und Dressings"
+						],
+						"nutritional": null,
+						"price": [
+							"pro 100 Gramm: Lernende CHF 2.80 /",
+							"Lehrpers. CHF 2.90"
+						]
+					},
+					{
+						"title": "SÜESSES",
+						"menu": [
+							"Cheesecake"
+						],
+						"nutritional": [
+							"ca. 140.3 kcal"
+						],
+						"price": [
+							"3.50"
+						]
+					}
+				],
+				[
+					{
+						"title": "WÄLTREIS",
+						"menu": [
+							"Schweinshuftschnitzel",
+							"Champignonrahmsauce mit Peterli",
+							"Tagliatelle",
+							"Gebackene farbige Rüebli"
+						],
+						"nutritional": [
+							"ca. 685.7 kcal / Schwein: Schweiz"
 						],
 						"price": [
 							"Lernende CHF 10.00 / Lehrpers. CHF",
