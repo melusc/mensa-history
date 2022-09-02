@@ -19,7 +19,7 @@
 	"dependencies": {
 		"he": "^1.2.0",
 		"lodash-es": "^4.17.21",
-		"pdfjs-dist": "^2.15.349"
+		"pdfjs-dist": "^2.16.105"
 	},
 	"type": "module",
 	"scripts": {
