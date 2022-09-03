@@ -1,0 +1,553 @@
+{
+	"data": [
+		{
+			"linkTitle": "Wochenmenü Standort Pfäffikon vom 5. - 9. September 2022",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "P",
+			"menus": [
+				{
+					"day": "Montag, 05. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rindsgulasch Ungarische Art",
+								"Paprikasauce mit Peperoni",
+								"Spätzli",
+								"Broccoli"
+							],
+							"nutritional": [
+								"ca. 616.7 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Ganzer Blumenkohl aus dem Ofen",
+								"mit Tahini, Rauchpaprika und Zaatar",
+								"Randen-Cous cous mit Petersilie"
+							],
+							"nutritional": [
+								"ca. 549.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Süsskartoffel-Fries",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 917.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 06. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Paniertes Schweinsschnitzel",
+								"Preiselbeeren",
+								"Kartoffel-Gurken-Salat mit Dill"
+							],
+							"nutritional": [
+								"ca. 646.7 kcal / Schwein: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Indisches Linsencurry",
+								"Basmatireis",
+								"Raita",
+								"Papadam und Koriander"
+							],
+							"nutritional": [
+								"ca. 842.5 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Süsskartoffel-Fries",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 917.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 07. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Poulet-Piccata",
+								"Pouletschnitzel mit Ei und Parmesan",
+								"Safranrisotto",
+								"Peperonata"
+							],
+							"nutritional": [
+								"ca. 741.7 kcal / Poulet: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Veganes Zürcher Geschnetzeltes",
+								"Planted-Based Chicken mit Champignonsauce",
+								"Rösti",
+								"Erbsen und Rüebli"
+							],
+							"nutritional": [
+								"ca. 560.6 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Süsskartoffel-Fries",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 917.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Gebrannte Crème"
+							],
+							"nutritional": [
+								"ca. 218.5 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 08. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Innerschwyzer Ofenguck",
+								"mit Kartoffelstock, Speck, Ei, Lauch und",
+								"Reibkäse",
+								"dazu farbiger Kabissalat"
+							],
+							"nutritional": [
+								"ca. 772.6 kcal / Speck (Schwein): Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"BIO Tofusteak",
+								"Chimichurri",
+								"Dreifarbiger Gemüse-Quinoa",
+								"Glasierter Mais"
+							],
+							"nutritional": [
+								"ca. 732.3 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Süsskartoffel-Fries",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 917.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Ananas mit Minze"
+							],
+							"nutritional": [
+								"ca. 77.5 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 09. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Fischstäbli",
+								"Mayonnaise",
+								"Pommes frites",
+								"Rahmspinat"
+							],
+							"nutritional": [
+								"ca. 1210.7 kcal / Seelachs: Nordostpazifik"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gratinierter Crèpe gefüllt mit Ratatouille",
+								"Béchamel-Parmesan-Sauce",
+								"Wirsing mit Apfel",
+								"Karamellisierte Haselnüsse"
+							],
+							"nutritional": [
+								"ca. 624.0 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Süsskartoffel-Fries",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 917.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"linkTitle": "Wochenmenü Standort Nuolen vom 5. - 9. September  2022",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "N",
+			"menus": [
+				{
+					"day": "Montag, 05. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rindsgulasch Ungarische Art",
+								"Paprikasauce mit Peperoni",
+								"Spätzli",
+								"Broccoli"
+							],
+							"nutritional": [
+								"ca. 616.7 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Ganzer Blumenkohl aus dem Ofen",
+								"mit Tahini, Rauchpaprika und Zaatar",
+								"Randen-Cous cous mit Petersilie"
+							],
+							"nutritional": [
+								"ca. 549.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Ofen-Süsskartoffeln",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 757.3 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 06. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Paniertes Schweinsschnitzel",
+								"Preiselbeeren",
+								"Kartoffel-Gurken-Salat mit Dill"
+							],
+							"nutritional": [
+								"ca. 646.7 kcal / Schwein: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Indisches Linsencurry",
+								"Basmatireis",
+								"Raita",
+								"Papadam und Koriander"
+							],
+							"nutritional": [
+								"ca. 842.5 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Ofen-Süsskartoffeln",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 757.3 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 07. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Heute bleibt das Restaurant geschlossen."
+							],
+							"nutritional": null,
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 08. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Innerschwyzer Ofenguck",
+								"mit Kartoffelstock, Speck, Ei, Lauch und",
+								"Reibkäse",
+								"dazu farbiger Kabissalat"
+							],
+							"nutritional": [
+								"ca. 772.6 kcal / Speck (Schwein): Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"BIO Tofusteak",
+								"Chimichurri",
+								"Dreifarbiger Gemüse-Quinoa",
+								"Glasierter Mais"
+							],
+							"nutritional": [
+								"ca. 732.3 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Ofen-Süsskartoffeln",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 757.3 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Ananas mit Minze"
+							],
+							"nutritional": [
+								"ca. 77.5 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 09. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Fischstäbli",
+								"Mayonnaise",
+								"Pommes frites",
+								"Rahmspinat"
+							],
+							"nutritional": [
+								"ca. 1210.7 kcal / Seelachs: Nordostpazifik"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gratinierter Crèpe gefüllt mit Ratatouille",
+								"Béchamel-Parmesan-Sauce",
+								"Wirsing mit Apfel",
+								"Karamellisierte Haselnüsse"
+							],
+							"nutritional": [
+								"ca. 624.0 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Veganer Burger im gelbem Bun",
+								"mit BBQ-Sauce, Tomaten, Essiggurken, Rucola",
+								"und frittierten Zwiebeln",
+								"Ofen-Süsskartoffeln",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 757.3 kcal"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"version": 2
+}
