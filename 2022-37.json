@@ -1,0 +1,613 @@
+{
+	"data": [
+		{
+			"linkTitle": "Wochenmenü Standort Pfäffikon vom 12. - 16. September 2022",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "P",
+			"menus": [
+				{
+					"day": "Montag, 12. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Gebratene Pouletbrust",
+								"Tomaten-Basilikum-Vinaigrette",
+								"Kartoffel-Linsen-Gemüse",
+								"Kräuterkartoffeln",
+								"Blumenkohl"
+							],
+							"nutritional": [
+								"ca. 804.6 kcal / Poulet: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gefüllte Aubergine mit Sojahack, Couscous",
+								"und Gemüse"
+							],
+							"nutritional": [
+								"ca. 330.1 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 877.1 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 13. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rindsgeschnetzeltes Stroganoff",
+								"Paprikasauce mit Champignons und",
+								"Essiggurken",
+								"Spätzli"
+							],
+							"nutritional": [
+								"ca. 586.6 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Veganes Red Thai Curry",
+								"Frittierter Tofu, Gemüse",
+								"Sesamreis",
+								"Mungosprossen und Peperoncini"
+							],
+							"nutritional": [
+								"ca. 652.6 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 877.1 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Panna cotta mit Erdbeersauce"
+							],
+							"nutritional": [
+								"ca. 263.3 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 14. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Schweins-Cordon bleu",
+								"Pommes frites",
+								"Zitronenschnitz",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 768.5 kcal / Cordon bleu (Schwein):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Asiatisches Omelette mit Kokosmilch, Ingwer,",
+								"Peperoncini und Frühlingszwiebeln"
+							],
+							"nutritional": [
+								"ca. 208.9 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 877.1 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 15. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Geschmorter Rindfleischvogel",
+								"Rotweinsauce",
+								"Nudeln",
+								"Grüne Bohnen"
+							],
+							"nutritional": [
+								"ca. 1733.6 kcal / Fleischvogel (Rind, Schwein):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gnocchi",
+								"Waldpilzrahmsauce",
+								"Gebackenes Wurzelgemüse",
+								"Spinatblätter",
+								"Gebackenes Wurzelgemüse"
+							],
+							"nutritional": [
+								"ca. 690.0 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 877.1 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Crème brûlée"
+							],
+							"nutritional": [
+								"ca. 166.6 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 16. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Hackbraten",
+								"Bratensauce",
+								"Kartoffelpüree",
+								"Glasierte Erbsli"
+							],
+							"nutritional": [
+								"ca. 657.9 kcal / Hackbraten (Kalb, Schwein):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Indische Gemüse Samosas",
+								"Curryreis",
+								"Joghurt-Dip mit Minze"
+							],
+							"nutritional": [
+								"ca. 612.6 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 877.1 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"linkTitle": "Wochenmenü Standort Nuolen vom 12. - 16. September  2022",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "N",
+			"menus": [
+				{
+					"day": "Montag, 12. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Pouletbrust",
+								"Kräuterkartoffeln",
+								"Blumenkohl"
+							],
+							"nutritional": [
+								"ca. 410.9 kcal / Poulet: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gefüllte Aubergine mit Sojahack, Couscous",
+								"und Gemüse"
+							],
+							"nutritional": [
+								"ca. 330.1 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"gefüllt mit Rindfleisch, Reis, Bohnen und",
+								"Gemüse",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 1298.9 kcal / Rind: Schweiz",
+								"Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 13. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rindsgeschnetzeltes Stroganoff",
+								"Paprikasauce mit Champignons und",
+								"Essiggurken",
+								"Spätzli"
+							],
+							"nutritional": [
+								"ca. 586.6 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Veganes Red Thai Curry",
+								"Frittierter Tofu, Gemüse",
+								"Sesamreis",
+								"Mungosprossen und Peperoncini",
+								"Basmatireis mit Sesam",
+								"Mungosprossen"
+							],
+							"nutritional": [
+								"ca. 964.0 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"gefüllt mit Rindfleisch, Reis, Bohnen und",
+								"Gemüse",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 1298.9 kcal / Rind: Schweiz",
+								"Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Schoggi Muffin"
+							],
+							"nutritional": [
+								"ca. 160.2 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 14. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Schweins-Cordon bleu",
+								"Pommes frites",
+								"Zitronenschnitz",
+								"Ketchup"
+							],
+							"nutritional": [
+								"ca. 768.5 kcal / Cordon bleu (Schwein):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Asiatisches Omelette mit Kokosmilch, Ingwer,",
+								"Peperoncini und Frühlingszwiebeln",
+								"Jasminreis"
+							],
+							"nutritional": [
+								"ca. 511.1 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"gefüllt mit Rindfleisch, Reis, Bohnen und",
+								"Gemüse",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 1298.9 kcal / Rind: Schweiz",
+								"Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 15. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Geschmorter Rindfleischvogel",
+								"Rotweinsauce",
+								"Nudeln",
+								"Grüne Bohnen"
+							],
+							"nutritional": [
+								"ca. 796.5 kcal / Fleischvogel (Rind, Schwein):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gnocchi",
+								"Waldpilzrahmsauce",
+								"Gebackenes Wurzelgemüse",
+								"Spinatblätter",
+								"Gebackenes Wurzelgemüse"
+							],
+							"nutritional": [
+								"ca. 690.0 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"gefüllt mit Rindfleisch, Reis, Bohnen und",
+								"Gemüse",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 1298.9 kcal / Rind: Schweiz",
+								"Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						},
+						{
+							"title": "SÜESSES",
+							"menu": [
+								"Griessflan mit Waldbeeren"
+							],
+							"nutritional": [
+								"ca. 143.7 kcal"
+							],
+							"price": [
+								"3.50"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 16. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rindshackbraten",
+								"Bratensauce",
+								"Kartoffelpüree",
+								"Glasierte Erbsli"
+							],
+							"nutritional": [
+								"ca. 602.7 kcal / Hackbraten (Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Indische Gemüse Samosas",
+								"Curryreis",
+								"Joghurt-Dip mit Minze"
+							],
+							"nutritional": [
+								"ca. 612.6 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Rindfleisch Burrito",
+								"mit Reis, Bohnen, Gemüse, Cheddar, Sour",
+								"cream und Koriander",
+								"gefüllt mit Rindfleisch, Reis, Bohnen und",
+								"Gemüse",
+								"Nachips"
+							],
+							"nutritional": [
+								"ca. 1298.9 kcal / Rind: Schweiz",
+								"Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"version": 2
+}
