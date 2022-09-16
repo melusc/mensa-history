@@ -1,0 +1,579 @@
+{
+	"data": [
+		{
+			"linkTitle": "Wochenmenü Standort Pfäffikon vom 19. - 23. September 2022",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "P",
+			"menus": [
+				{
+					"day": "Montag, 19. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Kalbsbratwurst",
+								"Rösti-Galetten",
+								"Grilltomate",
+								"Batensauce Burgunder Art"
+							],
+							"nutritional": [
+								"ca. 845.1 kcal / Wurst (Schwein, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gemüse-Frühlingsrollen",
+								"Glasnudeln",
+								"Gebratenes Gemüse mit Mu-Err-Pilzen",
+								"Sesam-Soja-Sauce"
+							],
+							"nutritional": [
+								"ca. 728.4 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 20. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Schweins-Saltimbocca",
+								"Balsamicojus",
+								"Safranrisotto",
+								"Broccoli"
+							],
+							"nutritional": [
+								"ca. 678.7 kcal / Schwein: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Spaghetti cinque pi",
+								"Pomodoro, Panna, Pepe, Prezzemolo,",
+								"Parmigiano",
+								"Grana Padano gerieben"
+							],
+							"nutritional": [
+								"ca. 2055.4 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 21. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rinds-Hackfleischkugeln",
+								"Kartoffelpüree",
+								"Glasierte Rüebli",
+								"Kräuter-Bratensauce"
+							],
+							"nutritional": [
+								"ca. 538.9 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Falafel",
+								"Hausgemachtes Hummus",
+								"Gebratene rote Peperoni",
+								"Veganer Tahini-Joghurt-Dip"
+							],
+							"nutritional": [
+								"ca. 781.5 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 22. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Trutenragout",
+								"Waldpilzsauce",
+								"Langkornreis",
+								"Broccoli"
+							],
+							"nutritional": [
+								"ca. 630.3 kcal / Trute: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Quinoa-Chili-Bratlinge",
+								"Blattspinat",
+								"Folienkartoffel",
+								"Schnittlauch-Quark-Dip"
+							],
+							"nutritional": [
+								"ca. 610.5 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 23. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Meerfisch-Knusperli im Bierteig",
+								"Zitronen-Mayonnaise",
+								"Kräuterkartoffeln"
+							],
+							"nutritional": [
+								"ca. 804.7 kcal / Fisch (Seehecht, Merlan,",
+								"Seelachs): Südostatlantik"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"BIO Broccoliwähe",
+								"Gemüsereis",
+								"Tagesdessert"
+							],
+							"nutritional": [
+								"ca. 773.1 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"linkTitle": "Wochenmenü Standort Nuolen vom 19. - 23. September  2022",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "P",
+			"menus": [
+				{
+					"day": "Montag, 19. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Kalbsbratwurst",
+								"Rösti-Galetten",
+								"Grilltomate",
+								"Batensauce Burgunder Art"
+							],
+							"nutritional": [
+								"ca. 845.1 kcal / Wurst (Schwein, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Gemüse-Frühlingsrollen",
+								"Glasnudeln",
+								"Gebratenes Gemüse mit Mu-Err-Pilzen",
+								"Sesam-Soja-Sauce"
+							],
+							"nutritional": [
+								"ca. 728.4 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 20. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Schweins-Saltimbocca",
+								"Balsamicojus",
+								"Safranrisotto",
+								"Broccoli"
+							],
+							"nutritional": [
+								"ca. 678.7 kcal / Schwein: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Spaghetti cinque pi",
+								"Pomodoro, Panna, Pepe, Prezzemolo,",
+								"Parmigiano",
+								"Grana Padano gerieben"
+							],
+							"nutritional": [
+								"ca. 2055.4 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 21. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rinds-Hackfleischkugeln",
+								"Kartoffelpüree",
+								"Glasierte Rüebli",
+								"Kräuter-Bratensauce"
+							],
+							"nutritional": [
+								"ca. 538.9 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Falafel",
+								"Hausgemachtes Hummus",
+								"Gebratene rote Peperoni",
+								"Veganer Tahini-Joghurt-Dip"
+							],
+							"nutritional": [
+								"ca. 781.5 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 22. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Trutenragout",
+								"Waldpilzsauce",
+								"Langkornreis",
+								"Broccoli"
+							],
+							"nutritional": [
+								"ca. 630.3 kcal / Trute: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Quinoa-Chili-Bratlinge",
+								"Blattspinat",
+								"Folienkartoffel",
+								"Schnittlauch-Quark-Dip"
+							],
+							"nutritional": [
+								"ca. 610.5 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 23. September",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Meerfisch-Knusperli im Bierteig",
+								"Zitronen-Mayonnaise",
+								"Kräuterkartoffeln"
+							],
+							"nutritional": [
+								"ca. 804.7 kcal / Fisch (Seehecht, Merlan,",
+								"Seelachs): Südostatlantik"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"BIO Broccoliwähe",
+								"Gemüsereis",
+								"Tagesdessert"
+							],
+							"nutritional": [
+								"ca. 773.1 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Kebab im Taschenbrot",
+								"Joghurtsauce mit Schnittlauch",
+								"Sambal Oelek",
+								"Karotten-, Kabisstreifen",
+								"Eisbergsalat und Zwiebeln",
+								"Pommes frites"
+							],
+							"nutritional": [
+								"ca. 1019.8 kcal / Kebab (Poulet, Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"version": 2
+}
