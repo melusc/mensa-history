@@ -13,8 +13,10 @@ import type {Menu} from './types.js';
 const urls = await getUrls();
 
 const promises = urls.map(async ({url, title}) => {
-	const {year, weekNumber, location} = extractMetadata(url);
+	const {year, weekNumber} = extractMetadata(url);
 	const {menus, pdfTitle} = await extract(url);
+
+	const location: 'N' | 'P' = /nuolen/i.test(title) ? 'N' : 'P';
 
 	return {
 		year,
@@ -33,6 +35,7 @@ const result: Menu = {
 
 const weekNumbers = new Set<string>();
 const years = new Set<string>();
+const locations = new Set<string>();
 for await (const {
 	linkTitle,
 	weekNumber,
@@ -50,7 +53,14 @@ for await (const {
 
 	weekNumbers.add(weekNumber);
 	years.add(year);
+	locations.add(location);
 }
+
+assert.deepEqual(
+	locations.size,
+	2,
+	`Expected set of {"N", "P"}, got ${inspect(locations)}`,
+);
 
 const getFromSet = <T>(set: Set<T>, name: string) => {
 	assert.equal(
