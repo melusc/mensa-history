@@ -1,0 +1,549 @@
+{
+	"data": [
+		{
+			"linkTitle": "Pfäffikon",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "P",
+			"menus": [
+				{
+					"day": "Montag, 14. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Rindshackbraten",
+								"Bratensauce",
+								"Tagesgemüse",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 421.6 kcal / Hackbraten (Rind, Kalb):",
+								"Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Pizza Caprese",
+								"mit Tomatenscheiben, Mozzarellascheiben und",
+								"Basilikum",
+								"Tagesgemüse",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 1047.4 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 15. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Poulet Cordon bleu",
+								"Grana Padano Wedges",
+								"Ketchup",
+								"Tagesdessert"
+							],
+							"nutritional": [
+								"ca. 711.3 kcal / Poulet Cordon Bleu Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Blumenkohl-Kartoffel-Curry",
+								"Basmatireis",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 554.2 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 16. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Schweins-Piccata",
+								"Schweinsschnitzel mit Ei und Parmesan",
+								"Basmatireis",
+								"Gebackenes Wintergemüse",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 713.6 kcal / Schwein: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Falafel",
+								"Pitabrot",
+								"Minze-Sauerrahm",
+								"Bulgur-Taboulé"
+							],
+							"nutritional": [
+								"ca. 963.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 17. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"BBQ Chicken Wings",
+								"Ofen-Kartoffelschnitze",
+								"Gedämpfte Erbsli",
+								"Honig-Senf-Sauce"
+							],
+							"nutritional": [
+								"ca. 901.2 kcal / Poulet: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"BIO Farmer's Day",
+								"Penne mit Kürbisrahmsauce, Ofen-Kürbis,",
+								"Pilzen, Spinatblätter, Walnüssen und Fetakäse",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 830.2 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 18. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Paniertes Seelachsfilet",
+								"Dillrahmsauce",
+								"Kartoffelstampf",
+								"Gedämpfte Rüebli"
+							],
+							"nutritional": [
+								"ca. 711.3 kcal / Seelachs: Nordostpazifik"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Linsen-Gemüse-Bratling",
+								"Kokos-Karottensauce",
+								"Hausgemachtes Hummus"
+							],
+							"nutritional": [
+								"ca. 516.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"linkTitle": "Nuolen",
+			"pdfTitle": "Restaurant Eldora - Kantonsschule Ausserschwyz",
+			"location": "N",
+			"menus": [
+				{
+					"day": "Montag, 14. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Spaghetti",
+								"Sauce Bolognese",
+								"Grana Padano gerieben",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 637.8 kcal / Rind: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Pizza Caprese",
+								"mit Tomatenscheiben, Mozzarellascheiben und",
+								"Basilikum",
+								"Tagesgemüse",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 1047.4 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Dienstag, 15. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Poulet Cordon bleu",
+								"Grana Padano Wedges",
+								"Ketchup",
+								"Tagesdessert"
+							],
+							"nutritional": [
+								"ca. 711.3 kcal / Poulet Cordon Bleu Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Blumenkohl-Kartoffel-Curry",
+								"Basmatireis",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 554.2 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Mittwoch, 16. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Schweins-Piccata",
+								"Schweinsschnitzel mit Ei und Parmesan",
+								"Basmatireis",
+								"Gebackenes Wintergemüse",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 713.6 kcal / Schwein: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Falafel",
+								"Pitabrot",
+								"Minze-Sauerrahm",
+								"Bulgur-Taboulé"
+							],
+							"nutritional": [
+								"ca. 963.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Donnerstag, 17. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"BBQ Chicken Wings",
+								"Ofen-Kartoffelschnitze",
+								"Gedämpfte Erbsli",
+								"Honig-Senf-Sauce"
+							],
+							"nutritional": [
+								"ca. 901.2 kcal / Poulet: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"BIO Farmer's Day",
+								"Penne mit Kürbisrahmsauce, Ofen-Kürbis,",
+								"Pilzen, Spinatblätter, Walnüssen und Fetakäse"
+							],
+							"nutritional": [
+								"ca. 830.2 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				},
+				{
+					"day": "Freitag, 18. November",
+					"menu": [
+						{
+							"title": "WÄLTREIS",
+							"menu": [
+								"Paniertes Seelachsfilet",
+								"Dillrahmsauce",
+								"Kartoffelstampf",
+								"Gedämpfte Rüebli"
+							],
+							"nutritional": [
+								"ca. 711.3 kcal / Seelachs: Nordostpazifik"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "KARMA",
+							"menu": [
+								"Linsen-Gemüse-Bratling",
+								"Kokos-Karottensauce",
+								"Hausgemachtes Hummus"
+							],
+							"nutritional": [
+								"ca. 516.8 kcal"
+							],
+							"price": [
+								"Lernende CHF 10.00 / Lehrpers. CHF",
+								"15.00"
+							]
+						},
+						{
+							"title": "STREETFOOD",
+							"menu": [
+								"Big NY Hot-Dog",
+								"Wienerli, Sesam-Bun, Senf, Sweet Relish,",
+								"Sauerkraut, Röstzwiebeln",
+								"Tagessalat"
+							],
+							"nutritional": [
+								"ca. 613.1 kcal / Wurst: Schweiz"
+							],
+							"price": [
+								"Lernende CHF 8.00 / Lehrpers. CHF",
+								"13.00"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"version": 2
+}
