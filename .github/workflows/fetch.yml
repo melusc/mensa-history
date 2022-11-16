@@ -35,7 +35,7 @@ jobs:
 
       - name: Get current date and tme
         id: date
-        run: echo "::set-output name=date::$(date +"%Y-%m-%d %H:%M" --utc)"
+        run: echo "date=$(date +"%Y-%m-%d %H:%M" --utc)" >> $GITHUB_OUTPUT
 
       - name: Copy data
         uses: peaceiris/actions-gh-pages@v3
