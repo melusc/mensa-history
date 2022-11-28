@@ -1,24 +1,40 @@
 export type SingleItem = Readonly<{
+	tags: Array<{
+		title: string;
+		icon: string;
+	}>;
 	title: string;
-	menu: readonly string[];
-	// eslint-disable-next-line @typescript-eslint/ban-types
-	nutritional: null | readonly string[];
-	price: readonly string[];
+	menu: {
+		menu: string[];
+		declaration: string[];
+	};
+	price: string;
+	allergens: Array<{
+		title: string;
+		icon: string;
+	}>;
+	nutritions: Array<{
+		key: string;
+		value: string;
+	}>;
 }>;
 
 export type DayMenu = {
 	day: string;
+	date: {
+		year: string;
+		month: string;
+		day: string;
+	};
 	menu: SingleItem[];
 };
 
 export type WeekMenu = DayMenu[];
 
 export type Menu = {
-	data: Array<{
-		linkTitle: string;
-		pdfTitle: string;
-		location: 'P' | 'N';
-		menus: WeekMenu;
-	}>;
-	version: 2;
+	data: {
+		location: string;
+		menu: WeekMenu;
+	};
+	version: 3;
 };
