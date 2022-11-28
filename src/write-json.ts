@@ -4,17 +4,13 @@ import type {Menu} from './types.js';
 
 const outDir = new URL('../data/', import.meta.url);
 
-export async function writeJson(
-	result: Menu,
-	weekNumber: string,
-	year: string,
-) {
+export async function writeJson(result: Menu, fileName: string) {
 	await mkdir(outDir, {
 		recursive: true,
 	});
 
 	await writeFile(
-		new URL(`${year}-${weekNumber}.json`, outDir),
+		new URL(`${fileName}.json`, outDir),
 		JSON.stringify(result, undefined, '\t'),
 	);
 }

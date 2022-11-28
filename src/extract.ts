@@ -1,232 +1,195 @@
 import assert from 'node:assert/strict';
-import {inspect} from 'node:util';
 
-import {chain, findLastIndex} from 'lodash-es';
-import pdfJs from 'pdfjs-dist';
-import type {TextItem} from 'pdfjs-dist/types/src/display/api.js';
+import {load, type AnyNode, type Cheerio, type CheerioAPI} from 'cheerio';
+import type {DayMenu, SingleItem} from './types.js';
 
-import type {WeekMenu} from './types.js';
-
-type PickedText = {
-	str: string;
-	left: number;
-	bottom: number;
+const getHtml = async (url: URL) => {
+	const request = await fetch(url);
+	const text = await request.text();
+	return load(text);
 };
 
-const lte = (a: number, b: number, precision = 2) =>
-	// prettier-ignore
-	Math.round(a * (10 ** precision)) <= Math.round(b * (10 ** precision));
+const parseDateFilter = (date: string) => {
+	date = date.trim();
+	const match = /\b(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})$/.exec(date);
 
-const join = (items: string[]) => items.join(' ').replace(/\s+/g, ' ').trim();
-
-const findByRegExp = (texts: PickedText[], regex: RegExp): PickedText =>
-	chain(texts)
-		.find(({str}) => regex.test(str))
-		.tap(m => {
-			assert(m, String(regex));
-		})
-		.value();
-
-const getDays = (
-	texts: PickedText[],
-): {
-	dayPositions: number[];
-	dayTitles: string[];
-	dayBottom: number;
-} => {
-	const byDayName = chain([
-		/montag/i,
-		/dienstag/i,
-		/mittwoch/i,
-		/donnerstag/i,
-		/freitag/i,
-	])
-		.map(regex => findByRegExp(texts, regex))
-		.value();
-
-	const daysBottom = chain(byDayName)
-		.map(({bottom}) => bottom)
-		.thru(b => new Set(b))
-		.tap(set => {
-			assert(set.size === 1, 'More than one size');
-		})
-		.thru(set => [...set][0]!)
-		.value();
-	const daysLeft = byDayName.map(({left}) => left);
-
-	const days = chain(texts)
-		.filter(({bottom}) => bottom === daysBottom)
-		.groupBy(({left}) => findLastIndex(daysLeft, c => lte(c, left)))
-		.value();
-
-	const titles = chain(days)
-		.map(day => join(day.map(({str}) => str)))
-		.value();
+	assert(match?.groups);
+	const {year, month, day} = match.groups;
+	assert(year && month && day);
 
 	return {
-		dayTitles: titles,
-		dayPositions: daysLeft,
-		dayBottom: daysBottom,
+		year,
+		month,
+		day,
 	};
 };
 
-const menuTitlesRegex
-	= /^\s*(?:supp[äe]|w[äe]ltreise?|karma|streetfood|salatbar|süe?sses)\s*$/i;
+type DataExtractor<T> = ($menu: Cheerio<AnyNode>, $: CheerioAPI) => T;
 
-const getMenus = (texts: PickedText[]): WeekMenu => {
-	const {dayBottom, dayPositions, dayTitles} = getDays(texts);
+const getAllergens: DataExtractor<
+	Array<{
+		title: string;
+		icon: string;
+	}>
+> = ($menu, $) => {
+	const $list = $menu.find(
+		'.menu-nutrition-infos-popup__body__allergens__icons',
+	);
+	return $list.toArray().map(element => {
+		const $item = $(element);
+		const $img = $item.find('img');
+		const icon = $img.attr('src');
+		assert(icon);
+		const title = $img.attr('title');
+		assert(title);
+		return {
+			title,
+			icon,
+		};
+	});
+};
 
-	const filtered = chain(texts)
-		.filter(({bottom}) => bottom < dayBottom)
-		.value();
-
-	const titlePositions = chain(filtered)
-		.filter(({str}) => menuTitlesRegex.test(str))
-		.groupBy(({str}) => str.toLowerCase().trim())
-		.map(items => Math.max(...items.map(({bottom}) => bottom)))
-		.value();
-
-	const groupedByDay = chain(filtered)
-		.groupBy(({left}) => findLastIndex(dayPositions, l => lte(l, left, 1)))
-		.values()
-		.value();
-
-	const groupedByType = groupedByDay.map(day =>
-		chain(day)
-			.groupBy(({bottom}) => findLastIndex(titlePositions, b => lte(bottom, b)))
-			.values()
-			.tap(day => {
-				assert(
-					day.length <= 6 && day.length > 0,
-					`Unexpected day.length: ${inspect(day)}`,
-				);
-			})
-			.value(),
+const getNutritions: DataExtractor<
+	Array<{
+		key: string;
+		value: string;
+	}>
+> = ($menu, $) => {
+	const $table = $menu.find(
+		'.menu-nutrition-infos-popup__body__nutrition__table',
 	);
 
-	const groupedByRow = groupedByType.map(day =>
-		day.map(menu =>
-			chain(menu)
-				.groupBy(({bottom}) => Math.round(bottom))
-				.entries()
-				.orderBy(v => Number(v[0]), ['desc'])
-				.map(([, value]) => join(value.map(({str}) => str)))
-				.tap(menu => {
-					// Title
-					// Menu
-					// optional nutritional value
-					// Price
-					assert(menu.length >= 3, `menu.length <= 2: ${JSON.stringify(menu)}`);
-				})
-				.value(),
-		),
-	);
-
-	const getDayTitle = (i: number) => {
-		const dayTitle = dayTitles[i];
-		assert(dayTitle, `${i} not in ${inspect(dayTitles)}.`);
-		return dayTitle;
-	};
-
-	const getDayMenu = (day: string[][]) =>
-		day.map(menu => {
-			menu = menu.filter(Boolean);
-			// Title: One line
-			// ...Menu: Many lines
-			// ...nutritional value: Probably only one line
-			// ...price: one or two lines
-
-			const priceFirstIndex = menu.findIndex(
-				row =>
-					/chf/i.test(row)
-					// To not match nutritional values by accident
-					// it should not be too general
-					// Only "soup" and "dessert" prices are without "CHF" and both are 3.50
-					|| row.trim() === '3.50',
-			);
-
-			// Optional: maybe -1
-			const nutritionalFirstIndex = menu.findIndex(row => /kcal/i.test(row));
-
-			const inspected = inspect(menu);
-			assert(priceFirstIndex !== -1, `Price not found ${inspected}`);
-
-			assert(
-				priceFirstIndex !== nutritionalFirstIndex,
-				`Price matched nutritional values: ${inspected}`,
-			);
-
-			if (nutritionalFirstIndex !== -1) {
-				assert(
-					nutritionalFirstIndex < priceFirstIndex,
-					`Price was before nutritional ${inspected}`,
-				);
-			}
-
-			const menuTo
-				= nutritionalFirstIndex === -1 ? priceFirstIndex : nutritionalFirstIndex;
-
-			const title = menu[0];
-
-			assert(
-				title && menuTitlesRegex.test(title),
-				`Unexpected title: "${title!}", ${inspected}`,
-			);
-
+	return $table
+		.slice(1)
+		.toArray()
+		.map(row => {
+			const $row = $(row);
+			const get = (n: number) => $row.children().eq(n).text().trim();
+			const key = get(0);
+			assert(key);
+			const value = get(1);
+			assert(value);
 			return {
-				title: menu[0]!,
-				menu: menu.slice(1, menuTo),
-				nutritional:
-					nutritionalFirstIndex === -1
-						? null
-						: menu.slice(nutritionalFirstIndex, priceFirstIndex),
-				price: menu.slice(priceFirstIndex),
+				key,
+				value,
+			};
+		});
+};
+
+const getPrice: DataExtractor<string> = $menu => {
+	const $price = $menu.find('.menu-list > .menu-list-item').first();
+	const prices = $price.text().trim();
+	assert(prices);
+	assert.match(prices, /CHF/);
+	return prices;
+};
+
+const getTitle: DataExtractor<string> = $menu => {
+	const title = $menu.find('.menu-info > h3').text();
+
+	assert(title);
+	return title;
+};
+
+const getMenu: DataExtractor<{
+	menu: string[];
+
+	declaration: string[];
+}> = ($menu_, $) => {
+	const $menu = $menu_.find('.menu-info > h4');
+	const declaration = $menu
+		.find('small.text-muted')
+		.toArray()
+		.map(element => $(element).text().trim())
+		.filter(Boolean);
+
+	const text = $menu
+		.contents()
+		.toArray()
+		.filter(element => element.type === 'text')
+		.map(element => $(element).text());
+
+	return {
+		menu: text,
+		declaration,
+	};
+};
+
+const getTags: DataExtractor<
+	Array<{
+		title: string;
+		icon: string;
+	}>
+> = ($menu, $) =>
+	$menu
+		.find('.menu-icon > img')
+		.toArray()
+		.map(img => {
+			const $img = $(img);
+			const icon = $img.attr('src');
+			assert(icon);
+			const title = $img.attr('title');
+			assert(title);
+			return {
+				icon,
+				title,
 			};
 		});
 
-	return groupedByRow.map((day, i) => ({
-		day: getDayTitle(i),
-		menu: getDayMenu(day),
-	}));
-};
+export const extract = async (url: URL): Promise<DayMenu[]> => {
+	const $ = await getHtml(url);
 
-export const extract = async (
-	url: URL,
-): Promise<{
-	menus: WeekMenu;
-	pdfTitle: string;
-}> => {
-	const pdf = await pdfJs.getDocument(url).promise;
-	const page = await pdf.getPage(1);
+	const location = $('#dropdown-location').text().trim();
+	assert(location);
 
-	const {items} = await page.getTextContent();
+	const $days = $('.filter-list > .filter');
 
-	const texts = chain(items as TextItem[])
-		.map(({str, transform}): PickedText => {
-			const left = transform[4] as unknown;
-			const bottom = transform[5] as unknown;
+	assert($days.length > 0);
 
-			assert(typeof str === 'string');
-			assert(typeof left === 'number');
-			assert(typeof bottom === 'number');
-			return {
-				str,
-				left,
-				bottom,
-			};
-		})
-		.orderBy(['bottom', 'left'], ['desc', 'asc'])
-		.value();
+	const dayTitles = $days.toArray().map(element => {
+		const $element = $(element);
+		const day = $element.text().trim();
+		assert(day);
+		const date = $element.data('filter');
+		assert(typeof date === 'string');
 
-	const titleBottom = findByRegExp(texts, /restaurant eldora/i).bottom;
-	const title = chain(texts)
-		.filter(({bottom}) => bottom === titleBottom)
-		.map(({str}) => str)
-		.thru(items => items.join('').replace(/\s+/g, ' ').trim())
-		.value();
+		return {
+			day,
+			date: parseDateFilter(date),
+			filter: date,
+		};
+	});
 
-	return {
-		pdfTitle: title,
-		menus: getMenus(texts),
-	};
+	const menus: DayMenu[] = dayTitles.map(({filter, day, date}) => {
+		const menus = $(filter)
+			.toArray()
+			.map((m): SingleItem => {
+				const $menu = $(m);
+				assert.equal($menu.length, 1);
+
+				const tags = getTags($menu, $);
+				const title = getTitle($menu, $);
+				const menu = getMenu($menu, $);
+				const price = getPrice($menu, $);
+				const allergens = getAllergens($menu, $);
+				const nutritions = getNutritions($menu, $);
+
+				return {
+					tags,
+					title,
+					menu,
+					price,
+					allergens,
+					nutritions,
+				};
+			});
+
+		return {
+			day,
+			date,
+			menu: menus,
+		};
+	});
+
+	return menus;
 };
