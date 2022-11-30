@@ -245,15 +245,15 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "714.6"
+								"value": "715.1"
 							},
 							{
 								"key": "kj",
-								"value": "2972.1"
+								"value": "2973.9"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "27.2 g"
+								"value": "27.3 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
@@ -261,7 +261,7 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "81.9 g"
+								"value": "82.0 g"
 							},
 							{
 								"key": "Zucker",
@@ -503,11 +503,11 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "630.6"
+								"value": "637.0"
 							},
 							{
 								"key": "kj",
-								"value": "2608.0"
+								"value": "2634.8"
 							},
 							{
 								"key": "Fett, Total",
@@ -515,11 +515,11 @@
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "11.4 g"
+								"value": "11.7 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "69.1 g"
+								"value": "65.9 g"
 							},
 							{
 								"key": "Zucker",
@@ -531,11 +531,11 @@
 							},
 							{
 								"key": "Protein",
-								"value": "27.8 g"
+								"value": "25.7 g"
 							},
 							{
 								"key": "Salz",
-								"value": "2.3 g"
+								"value": "2.5 g"
 							}
 						]
 					},
@@ -609,62 +609,54 @@
 							{
 								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
 								"title": "Vegetarisch"
-							},
-							{
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
-								"title": "Glutenfrei"
 							}
 						],
 						"title": "Süesses",
 						"menu": {
 							"menu": [
-								"Panna cotta mit Mangosauce"
+								"Marmorkuchen"
 							],
 							"declaration": []
 						},
 						"price": "CHF 3.50",
 						"allergens": [
 							{
-								"title": "Milch und Milcherzeugnisse",
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/G-Milch.svg"
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
 							}
 						],
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "268.7"
+								"value": "263.7"
 							},
 							{
 								"key": "kj",
-								"value": "1117.7"
+								"value": "1098.3"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "19.3 g"
+								"value": "16.3 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "11.6 g"
+								"value": "9.3 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "20.5 g"
+								"value": "24.0 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "19.2 g"
-							},
-							{
-								"key": "Nahrungsfaser",
-								"value": "0.3 g"
+								"value": "14.9 g"
 							},
 							{
 								"key": "Protein",
-								"value": "2.9 g"
+								"value": "4.4 g"
 							},
 							{
 								"key": "Salz",
-								"value": "0.1 g"
+								"value": "0.3 g"
 							}
 						]
 					}
