@@ -1,0 +1,849 @@
+{
+	"data": {
+		"menu": [
+			{
+				"day": "Montag",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "05"
+				},
+				"menu": [
+					{
+						"tags": [],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Paniertes Schweinsschnitzel",
+								"Pommes frites"
+							],
+							"declaration": [
+								"Schwein: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "699.3"
+							},
+							{
+								"key": "kj",
+								"value": "3009.1"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "28.6 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "6.9 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "66.4 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "6.3 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "4.5 g"
+							},
+							{
+								"key": "Protein",
+								"value": "26.6 g"
+							},
+							{
+								"key": "Salz",
+								"value": "2.6 g"
+							}
+						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Ravioli gefüllt mit Pesto",
+								"Tomatensauce",
+								"Gebackenes mediterranes Gemüse",
+								"BIO Zedernkerne, Rucola",
+								"Reibkäse"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "795.7"
+							},
+							{
+								"key": "kj",
+								"value": "3315.3"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "39.4 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "10.7 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "74.5 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "14.9 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "6.4 g"
+							},
+							{
+								"key": "Protein",
+								"value": "32.7 g"
+							},
+							{
+								"key": "Salz",
+								"value": "2.8 g"
+							}
+						]
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Tacos mit Rindfleisch, Gemüse, Guacamole, Sauerrahm und Reis mit Frühlingszwiebeln"
+							],
+							"declaration": [
+								"Rind: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "724.5"
+							},
+							{
+								"key": "kj",
+								"value": "3010.5"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "25.3 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "5.8 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "86.1 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "10.0 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "4.8 g"
+							},
+							{
+								"key": "Protein",
+								"value": "33.3 g"
+							},
+							{
+								"key": "Salz",
+								"value": "1.9 g"
+							}
+						]
+					}
+				]
+			},
+			{
+				"day": "Dienstag",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "06"
+				},
+				"menu": [
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
+								"title": "Glutenfrei"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/lactosefree.svg",
+								"title": "Laktosefrei"
+							}
+						],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Halbes Poulet",
+								"Spicy Potato-Wedges",
+								"Pikanter Knoblauch-Zitronen-Dip"
+							],
+							"declaration": [
+								"Poulet: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Eier und Eierzeugnisse",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/C-Ei.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "1302.6"
+							},
+							{
+								"key": "kj",
+								"value": "5416.3"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "89.0 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "16.6 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "29.8 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "2.8 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "0.1 g"
+							},
+							{
+								"key": "Protein",
+								"value": "90.1 g"
+							},
+							{
+								"key": "Salz",
+								"value": "2.3 g"
+							}
+						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/smart.svg",
+								"title": "Smart Eating"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
+								"title": "Glutenfrei"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Aubergine mit Hirse-Hüttenkäse-Füllung",
+								"Kräuter-Salsa",
+								"Zweifarbige Zucchetti"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Milch und Milcherzeugnisse",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/G-Milch.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "317.7"
+							},
+							{
+								"key": "kj",
+								"value": "1254.1"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "17.2 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "3.3 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "26.0 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "12.2 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "7.3 g"
+							},
+							{
+								"key": "Protein",
+								"value": "13.0 g"
+							},
+							{
+								"key": "Salz",
+								"value": "1.3 g"
+							}
+						]
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Tacos mit Rindfleisch, Gemüse, Guacamole, Sauerrahm und Reis mit Frühlingszwiebeln"
+							],
+							"declaration": [
+								"Rind: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "724.5"
+							},
+							{
+								"key": "kj",
+								"value": "3010.5"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "25.3 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "5.8 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "86.1 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "10.0 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "4.8 g"
+							},
+							{
+								"key": "Protein",
+								"value": "33.3 g"
+							},
+							{
+								"key": "Salz",
+								"value": "1.9 g"
+							}
+						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
+								"title": "Glutenfrei"
+							}
+						],
+						"title": "Süesses",
+						"menu": {
+							"menu": [
+								"Vanillecrème"
+							],
+							"declaration": []
+						},
+						"price": "CHF 3.50",
+						"allergens": [
+							{
+								"title": "Milch und Milcherzeugnisse",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/G-Milch.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "156.0"
+							},
+							{
+								"key": "kj",
+								"value": "652.8"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "7.1 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "4.3 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "19.4 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "17.9 g"
+							},
+							{
+								"key": "Protein",
+								"value": "3.5 g"
+							},
+							{
+								"key": "Salz",
+								"value": "0.6 g"
+							}
+						]
+					}
+				]
+			},
+			{
+				"day": "Mittwoch",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "07"
+				},
+				"menu": [
+					{
+						"tags": [],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Geschmorte Schweinshaxen",
+								"Rotweinsauce",
+								"Salbei-Polenta mit 1/4 Fett Käse und Olivenöl",
+								"Bayrisch Kraut",
+								"Calvadossauce"
+							],
+							"declaration": [
+								"Schwein: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "1157.3"
+							},
+							{
+								"key": "kj",
+								"value": "4832.2"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "73.7 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "22.3 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "47.0 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "17.5 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "5.2 g"
+							},
+							{
+								"key": "Protein",
+								"value": "62.1 g"
+							},
+							{
+								"key": "Salz",
+								"value": "2.9 g"
+							}
+						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Gnocchi all'arrabbiata",
+								"Gnocchi mit pikanter Tomatensauce, gebratenes Gemüse, Oliven und Reibkäse"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "632.3"
+							},
+							{
+								"key": "kj",
+								"value": "2635.7"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "27.5 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "8.1 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "71.1 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "16.9 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "8.8 g"
+							},
+							{
+								"key": "Protein",
+								"value": "20.6 g"
+							},
+							{
+								"key": "Salz",
+								"value": "4.5 g"
+							}
+						]
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Tacos mit Rindfleisch, Gemüse, Guacamole, Sauerrahm und Reis mit Frühlingszwiebeln"
+							],
+							"declaration": [
+								"Rind: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "724.5"
+							},
+							{
+								"key": "kj",
+								"value": "3010.5"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "25.3 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "5.8 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "86.1 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "10.0 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "4.8 g"
+							},
+							{
+								"key": "Protein",
+								"value": "33.3 g"
+							},
+							{
+								"key": "Salz",
+								"value": "1.9 g"
+							}
+						]
+					}
+				]
+			},
+			{
+				"day": "Freitag",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "09"
+				},
+				"menu": [
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/fish.svg",
+								"title": "Nachhaltiger Fisch"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/lactosefree.svg",
+								"title": "Laktosefrei"
+							}
+						],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Seelachsfilet mit Kräuterkruste",
+								"Dreifarbiger Quinoa",
+								"Kerbel-Vinaigrette"
+							],
+							"declaration": [
+								"Seelachs: Nordwestpazifik"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "608.1"
+							},
+							{
+								"key": "kj",
+								"value": "2516.2"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "33.0 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "3.4 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "47.2 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "4.2 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "0.4 g"
+							},
+							{
+								"key": "Protein",
+								"value": "31.6 g"
+							},
+							{
+								"key": "Salz",
+								"value": "2.3 g"
+							}
+						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegan.svg",
+								"title": "Vegan"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Kichererbsen-Stew mit Süsskartoffeln, Gemüse, Spinat und Kokosmilch",
+								"Naan-Brot",
+								"Salsa cinque pi",
+								"Pomodoro, Panna, Pfeffer, Petersilie, Parmesan"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "1096.4"
+							},
+							{
+								"key": "kj",
+								"value": "4571.9"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "66.1 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "34.6 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "88.5 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "21.5 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "5.4 g"
+							},
+							{
+								"key": "Protein",
+								"value": "30.5 g"
+							},
+							{
+								"key": "Salz",
+								"value": "2.7 g"
+							}
+						]
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Tacos mit Rindfleisch, Gemüse, Guacamole, Sauerrahm und Reis mit Frühlingszwiebeln"
+							],
+							"declaration": [
+								"Rind: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "724.5"
+							},
+							{
+								"key": "kj",
+								"value": "3010.5"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "25.3 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "5.8 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "86.1 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "10.0 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "4.8 g"
+							},
+							{
+								"key": "Protein",
+								"value": "33.3 g"
+							},
+							{
+								"key": "Salz",
+								"value": "1.9 g"
+							}
+						]
+					}
+				]
+			}
+		],
+		"location": "Pfäffikon"
+	},
+	"version": 3
+}
