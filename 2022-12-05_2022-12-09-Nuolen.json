@@ -667,7 +667,7 @@
 						"menu": {
 							"menu": [
 								"Seelachsfilet mit Kräuterkruste",
-								"Dreifarbiger Quinoa mit Dörrtomaten, Oliven und Petersilie",
+								"Schwarzer Quinoa",
 								"Kerbel-Vinaigrette"
 							],
 							"declaration": [
@@ -684,39 +684,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "666.2"
+								"value": "608.1"
 							},
 							{
 								"key": "kj",
-								"value": "2757.6"
+								"value": "2516.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "37.3 g"
+								"value": "33.0 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "3.9 g"
+								"value": "3.4 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "51.7 g"
+								"value": "47.2 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "5.9 g"
+								"value": "4.2 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "0.5 g"
+								"value": "0.4 g"
 							},
 							{
 								"key": "Protein",
-								"value": "31.8 g"
+								"value": "31.6 g"
 							},
 							{
 								"key": "Salz",
-								"value": "2.8 g"
+								"value": "2.3 g"
 							}
 						]
 					},
