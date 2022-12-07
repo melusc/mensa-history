@@ -472,7 +472,7 @@
 								"Rotweinsauce",
 								"Pastagratin, Olivenöl,",
 								"Bayrisch Kraut",
-								"Calvadossauce"
+								" "
 							],
 							"declaration": [
 								"Schwein: Schweiz"
@@ -535,7 +535,8 @@
 						"menu": {
 							"menu": [
 								"Gnocchi all'arrabbiata",
-								"Gnocchi mit pikanter Tomatensauce, gebratenes Gemüse, Oliven und Reibkäse"
+								"Gnocchi mit pikanter Tomatensauce, gebratenes Gemüse, Oliven ",
+								" "
 							],
 							"declaration": []
 						},
@@ -666,9 +667,9 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Seelachsfilet mit Kräuterkruste",
-								"Dreifarbiger Quinoa",
-								"Kerbel-Vinaigrette"
+								"Kalbsadrio",
+								"Karottengemüse",
+								" "
 							],
 							"declaration": [
 								"Seelachs: Nordwestpazifik"
