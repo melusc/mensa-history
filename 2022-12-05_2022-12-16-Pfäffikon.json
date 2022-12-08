@@ -470,9 +470,9 @@
 							"menu": [
 								"Geschmorte Schweinshaxen",
 								"Rotweinsauce",
-								"Pastagratin, Olivenöl,",
+								"Salbei-Polenta mit 1/4 Fett Käse und Olivenöl",
 								"Bayrisch Kraut",
-								" "
+								"Calvadossauce"
 							],
 							"declaration": [
 								"Schwein: Schweiz"
@@ -535,8 +535,7 @@
 						"menu": {
 							"menu": [
 								"Gnocchi all'arrabbiata",
-								"Gnocchi mit pikanter Tomatensauce, gebratenes Gemüse, Oliven ",
-								" "
+								"Gnocchi mit pikanter Tomatensauce, gebratenes Gemüse, Oliven und Reibkäse"
 							],
 							"declaration": []
 						},
@@ -654,25 +653,17 @@
 				},
 				"menu": [
 					{
-						"tags": [
-							{
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/fish.svg",
-								"title": "Nachhaltiger Fisch"
-							},
-							{
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/lactosefree.svg",
-								"title": "Laktosefrei"
-							}
-						],
+						"tags": [],
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Kalbsadrio",
-								"Karottengemüse",
-								" "
+								"Kalbs-Adrio",
+								"Gedämpfte Rüebli",
+								"Weisswein-Risotto",
+								"Bratensauce"
 							],
 							"declaration": [
-								"Seelachs: Nordwestpazifik"
+								"Adrio (Schwein, Kalb): Schweiz"
 							]
 						},
 						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
@@ -685,39 +676,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "608.1"
+								"value": "885.4"
 							},
 							{
 								"key": "kj",
-								"value": "2516.2"
+								"value": "3695.5"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "33.0 g"
+								"value": "58.9 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "3.4 g"
+								"value": "21.5 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "47.2 g"
+								"value": "55.8 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "4.2 g"
+								"value": "12.4 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "0.4 g"
+								"value": "3.4 g"
 							},
 							{
 								"key": "Protein",
-								"value": "31.6 g"
+								"value": "23.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "2.3 g"
+								"value": "5.1 g"
 							}
 						]
 					},
