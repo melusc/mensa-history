@@ -599,7 +599,8 @@
 						"menu": {
 							"menu": [
 								"The Mexican Chicken Burger",
-								"Pouletburger, Mais-Bun, Chili-Käse, Gurke, Tomate, Eisbergsalat, Koriander, Onion-Rings und Chipotle-Sauce",
+								"Pouletburger, Mais-Bun, Gurke, Tomate, Eisbergsalat,",
+								"Onion-Rings ",
 								"Frittierte Kartoffelschnitze"
 							],
 							"declaration": [
@@ -674,7 +675,7 @@
 								"Rote Thai-Currysauce",
 								"Basmatireis",
 								"Asiatisches Gemüse",
-								"Mungosprossen und Koriander"
+								" "
 							],
 							"declaration": []
 						},
