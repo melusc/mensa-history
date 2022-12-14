@@ -473,10 +473,10 @@
 						"menu": {
 							"menu": [
 								"Omelette",
-								"Tomatenrahmsauce",
+								"Tomatensauce",
 								"Kräuterreis",
 								"Gebackene Zucchetti",
-								"Kresse"
+								" "
 							],
 							"declaration": []
 						},
