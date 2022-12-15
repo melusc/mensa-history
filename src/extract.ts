@@ -148,10 +148,20 @@ export const extract = async (url: URL): Promise<DayMenu[]> => {
 
 	const dayTitles = $days.toArray().map(element => {
 		const $element = $(element);
-		const day = $element.text().trim();
-		assert(day);
+		let day = $element.text().trim();
 		const date = $element.data('filter');
 		assert(typeof date === 'string');
+
+		const parsedDate = parseDateFilter(date);
+		if (!day) {
+			const date = new Date(
+				Number(parsedDate.year),
+				Number(parsedDate.month) - 1,
+				Number(parsedDate.day),
+				8,
+			);
+			day = date.toLocaleString('de-CH', {weekday: 'long'});
+		}
 
 		return {
 			day,
