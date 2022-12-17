@@ -143,8 +143,8 @@
 						"menu": {
 							"menu": [
 								"Chicken Nuggets",
-								"Cocktailsauce",
-								"Frittierte Kartoffelschnitze"
+								"Pommes frites",
+								"Cocktailsauce"
 							],
 							"declaration": [
 								"Poulet: Schweiz"
@@ -160,39 +160,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "776.1"
+								"value": "914.0"
 							},
 							{
 								"key": "kj",
-								"value": "3227.8"
+								"value": "3886.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "48.9 g"
+								"value": "48.7 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "4.9 g"
+								"value": "7.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "54.9 g"
+								"value": "74.7 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.1 g"
+								"value": "6.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "1.8 g"
+								"value": "5.8 g"
 							},
 							{
 								"key": "Protein",
-								"value": "24.2 g"
+								"value": "24.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "3.9 g"
+								"value": "3.5 g"
 							}
 						]
 					}
@@ -336,8 +336,8 @@
 						"menu": {
 							"menu": [
 								"Chicken Nuggets",
-								"Cocktailsauce",
-								"Frittierte Kartoffelschnitze"
+								"Pommes frites",
+								"Cocktailsauce"
 							],
 							"declaration": [
 								"Poulet: Schweiz"
@@ -353,39 +353,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "776.1"
+								"value": "914.0"
 							},
 							{
 								"key": "kj",
-								"value": "3227.8"
+								"value": "3886.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "48.9 g"
+								"value": "48.7 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "4.9 g"
+								"value": "7.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "54.9 g"
+								"value": "74.7 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.1 g"
+								"value": "6.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "1.8 g"
+								"value": "5.8 g"
 							},
 							{
 								"key": "Protein",
-								"value": "24.2 g"
+								"value": "24.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "3.9 g"
+								"value": "3.5 g"
 							}
 						]
 					}
@@ -526,8 +526,8 @@
 						"menu": {
 							"menu": [
 								"Chicken Nuggets",
-								"Cocktailsauce",
-								"Frittierte Kartoffelschnitze"
+								"Pommes frites",
+								"Cocktailsauce"
 							],
 							"declaration": [
 								"Poulet: Schweiz"
@@ -543,99 +543,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "776.1"
+								"value": "914.0"
 							},
 							{
 								"key": "kj",
-								"value": "3227.8"
+								"value": "3886.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "48.9 g"
+								"value": "48.7 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "4.9 g"
+								"value": "7.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "54.9 g"
+								"value": "74.7 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.1 g"
+								"value": "6.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "1.8 g"
+								"value": "5.8 g"
 							},
 							{
 								"key": "Protein",
-								"value": "24.2 g"
+								"value": "24.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "3.9 g"
-							}
-						]
-					},
-					{
-						"tags": [
-							{
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
-								"title": "Vegetarisch"
-							}
-						],
-						"title": "Süesses",
-						"menu": {
-							"menu": [
-								"Apfel-Streusel-Kuchen"
-							],
-							"declaration": []
-						},
-						"price": "CHF 3.50",
-						"allergens": [
-							{
-								"title": "Glutenhaltiges Getreide",
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
-							}
-						],
-						"nutritions": [
-							{
-								"key": "kcal",
-								"value": "350.3"
-							},
-							{
-								"key": "kj",
-								"value": "1469.0"
-							},
-							{
-								"key": "Fett, Total",
-								"value": "16.7 g"
-							},
-							{
-								"key": "Fettsäuren gesättigt",
-								"value": "9.4 g"
-							},
-							{
-								"key": "Kohlenhydrate",
-								"value": "42.2 g"
-							},
-							{
-								"key": "Zucker",
-								"value": "24.8 g"
-							},
-							{
-								"key": "Nahrungsfaser",
-								"value": "1.6 g"
-							},
-							{
-								"key": "Protein",
-								"value": "6.0 g"
-							},
-							{
-								"key": "Salz",
-								"value": "0.2 g"
+								"value": "3.5 g"
 							}
 						]
 					}
@@ -654,11 +594,11 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Lasagne al forno",
-								"mit Rindfleisch-Bolognese, Béchamel und Grana Padano"
+								"Paniertes Schweinsschnitzel",
+								"Pommes frites"
 							],
 							"declaration": [
-								"Rind: Schweiz"
+								"Schwein: Schweiz"
 							]
 						},
 						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
@@ -671,56 +611,55 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "502.6"
+								"value": "699.3"
 							},
 							{
 								"key": "kj",
-								"value": "2108.1"
+								"value": "3009.1"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "17.9 g"
+								"value": "28.6 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "10.4 g"
+								"value": "6.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "48.8 g"
+								"value": "66.4 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "13.9 g"
+								"value": "6.3 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "3.0 g"
+								"value": "4.5 g"
 							},
 							{
 								"key": "Protein",
-								"value": "32.1 g"
+								"value": "26.6 g"
 							},
 							{
 								"key": "Salz",
-								"value": "0.9 g"
+								"value": "2.6 g"
 							}
 						]
 					},
 					{
 						"tags": [
 							{
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
-								"title": "Vegetarisch"
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegan.svg",
+								"title": "Vegan"
 							}
 						],
 						"title": "Karma",
 						"menu": {
 							"menu": [
-								"Paniertes Quornschnitzel",
-								"Serviettenknödel",
-								"Tagesgemüse",
-								"Rahmsauce"
+								"Penne",
+								"Basilikum-Pesto",
+								"Grana Padano gerieben"
 							],
 							"declaration": []
 						},
@@ -734,39 +673,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "767.6"
+								"value": "1028.1"
 							},
 							{
 								"key": "kj",
-								"value": "3200.3"
+								"value": "4312.8"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "41.9 g"
+								"value": "67.2 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "10.8 g"
+								"value": "14.2 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "65.7 g"
+								"value": "77.0 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "14.8 g"
+								"value": "4.5 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "10.8 g"
+								"value": "3.0 g"
 							},
 							{
 								"key": "Protein",
-								"value": "24.0 g"
+								"value": "27.7 g"
 							},
 							{
 								"key": "Salz",
-								"value": "4.0 g"
+								"value": "3.2 g"
 							}
 						]
 					},
@@ -776,8 +715,8 @@
 						"menu": {
 							"menu": [
 								"Chicken Nuggets",
-								"Cocktailsauce",
-								"Frittierte Kartoffelschnitze"
+								"Pommes frites",
+								"Cocktailsauce"
 							],
 							"declaration": [
 								"Poulet: Schweiz"
@@ -793,46 +732,46 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "776.1"
+								"value": "914.0"
 							},
 							{
 								"key": "kj",
-								"value": "3227.8"
+								"value": "3886.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "48.9 g"
+								"value": "48.7 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "4.9 g"
+								"value": "7.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "54.9 g"
+								"value": "74.7 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.1 g"
+								"value": "6.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "1.8 g"
+								"value": "5.8 g"
 							},
 							{
 								"key": "Protein",
-								"value": "24.2 g"
+								"value": "24.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "3.9 g"
+								"value": "3.5 g"
 							}
 						]
 					}
 				]
 			}
 		],
-		"location": "Nuolen"
+		"location": "Pfäffikon"
 	},
 	"version": 3
 }
