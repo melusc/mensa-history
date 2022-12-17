@@ -1,0 +1,357 @@
+{
+	"data": {
+		"menu": [
+			{
+				"day": "Montag",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "19"
+				},
+				"menu": [
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegan.svg",
+								"title": "Vegan"
+							}
+						],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Hacktätschli mit Eldora Alpkäse",
+								"Rosmarinkartoffeln",
+								"Gebackenes Wintergemüse",
+								"Senfsauce"
+							],
+							"declaration": [
+								"Rind: Schweiz, Kalb: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Cannelloni ",
+								"mit Ricotta-Spinat-Füllung, Tomatensauce, Béchamelsauce, gratiniert mit Käse",
+								"Tomatensauce",
+								"Büffelmozzarella"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Chicken Nuggets",
+								"Cocktailsauce",
+								"Frittierte Kartoffelschnitze"
+							],
+							"declaration": [
+								"Poulet: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					}
+				]
+			},
+			{
+				"day": "Dienstag",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "20"
+				},
+				"menu": [
+					{
+						"tags": [],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Schweins-Cordon bleu",
+								"Frittierte Kartoffelschnitze",
+								"Ketchup"
+							],
+							"declaration": [
+								"Cordon bleu (Schwein): Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
+								"title": "Glutenfrei"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Rösti mit Champignon-Lauch-Ragout und überbacken mit Raclette",
+								"Marinierter Salatspinat"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Milch und Milcherzeugnisse",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/G-Milch.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Chicken Nuggets",
+								"Cocktailsauce",
+								"Frittierte Kartoffelschnitze"
+							],
+							"declaration": [
+								"Poulet: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					}
+				]
+			},
+			{
+				"day": "Mittwoch",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "21"
+				},
+				"menu": [
+					{
+						"tags": [],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"G'hackets Hörnli",
+								"Rindsgehacktes",
+								"Hörnli",
+								"Apfelmus und Reibkäse"
+							],
+							"declaration": [
+								"Rind: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Vegetarische Chäässpätzli ",
+								"mit Röstzwiebeln"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Chicken Nuggets",
+								"Cocktailsauce",
+								"Frittierte Kartoffelschnitze"
+							],
+							"declaration": [
+								"Poulet: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Süesses",
+						"menu": {
+							"menu": [
+								"Apfel-Streusel-Kuchen"
+							],
+							"declaration": []
+						},
+						"price": "CHF 3.50",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					}
+				]
+			},
+			{
+				"day": "Donnerstag",
+				"date": {
+					"year": "2022",
+					"month": "12",
+					"day": "22"
+				},
+				"menu": [
+					{
+						"tags": [],
+						"title": "Wältreis",
+						"menu": {
+							"menu": [
+								"Lasagne al forno",
+								"mit Rindfleisch-Bolognese, Béchamel und Grana Padano"
+							],
+							"declaration": [
+								"Rind: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Karma",
+						"menu": {
+							"menu": [
+								"Paniertes Quornschnitzel",
+								"Serviettenknödel",
+								"Tagesgemüse",
+								"Rahmsauce"
+							],
+							"declaration": []
+						},
+						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					},
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Chicken Nuggets",
+								"Cocktailsauce",
+								"Frittierte Kartoffelschnitze"
+							],
+							"declaration": [
+								"Poulet: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": []
+					}
+				]
+			}
+		],
+		"location": "Nuolen"
+	},
+	"version": 3
+}
