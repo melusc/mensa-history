@@ -595,7 +595,9 @@
 						"menu": {
 							"menu": [
 								"Paniertes Schweinsschnitzel",
-								"Pommes frites"
+								"gebackene",
+								"Kartoffel Chips",
+								"Ketchup"
 							],
 							"declaration": [
 								"Schwein: Schweiz"
@@ -657,8 +659,8 @@
 						"title": "Karma",
 						"menu": {
 							"menu": [
-								"Penne",
-								"Basilikum-Pesto",
+								"Tages Pasta",
+								"Tomatensauce",
 								"Grana Padano gerieben"
 							],
 							"declaration": []
