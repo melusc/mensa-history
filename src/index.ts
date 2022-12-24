@@ -17,6 +17,10 @@ for (const {url, location} of urls) {
 	// eslint-disable-next-line no-await-in-loop
 	const menu = await extract(new URL(url));
 
+	if (menu.length === 0) {
+		continue;
+	}
+
 	// eslint-disable-next-line no-await-in-loop
 	await writeJson(
 		{

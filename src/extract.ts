@@ -144,8 +144,6 @@ export const extract = async (url: URL): Promise<DayMenu[]> => {
 
 	const $days = $('.filter-list > .filter');
 
-	assert($days.length > 0);
-
 	const dayTitles = $days.toArray().map(element => {
 		const $element = $(element);
 		let day = $element.text().trim();
