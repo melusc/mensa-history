@@ -594,6 +594,66 @@
 								"value": "0.7 g"
 							}
 						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
+								"title": "Glutenfrei"
+							}
+						],
+						"title": "Süesses",
+						"menu": {
+							"menu": [
+								"Schoggicrème"
+							],
+							"declaration": []
+						},
+						"price": "CHF 3.50",
+						"allergens": [
+							{
+								"title": "Milch und Milcherzeugnisse",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/G-Milch.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "159.9"
+							},
+							{
+								"key": "kj",
+								"value": "669.0"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "7.4 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "4.5 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "18.5 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "15.8 g"
+							},
+							{
+								"key": "Protein",
+								"value": "4.1 g"
+							},
+							{
+								"key": "Salz",
+								"value": "0.7 g"
+							}
+						]
 					}
 				]
 			},

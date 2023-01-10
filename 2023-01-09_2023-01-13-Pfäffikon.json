@@ -82,9 +82,8 @@
 						"title": "Karma",
 						"menu": {
 							"menu": [
-								"Ravioli mit ",
-								"Ratatouille-Füllung",
-								"Curry-Sauce",
+								"Vegane Ravioli mit Linsen-Gemüse-Füllung",
+								"Tomaten-Curry-Sauce",
 								"Gebackene Auberginen"
 							],
 							"declaration": []
@@ -143,8 +142,7 @@
 								"Ofen-Süsskartoffeln",
 								"Sauce Bolognese",
 								"Grillgemüse",
-								"Gratinierter",
-								"Cheddar-Käse"
+								"Cheddar-Käse-Dip"
 							],
 							"declaration": [
 								"Rind: Schweiz"
@@ -398,54 +396,58 @@
 							{
 								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
 								"title": "Vegetarisch"
+							},
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
+								"title": "Glutenfrei"
 							}
 						],
 						"title": "Süesses",
 						"menu": {
 							"menu": [
-								"Ovomaltine Mousse"
+								"Schoggi-Flan"
 							],
 							"declaration": []
 						},
 						"price": "CHF 3.50",
 						"allergens": [
 							{
-								"title": "Glutenhaltiges Getreide",
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+								"title": "Milch und Milcherzeugnisse",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/G-Milch.svg"
 							}
 						],
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "175.6"
+								"value": "172.6"
 							},
 							{
 								"key": "kj",
-								"value": "730.5"
+								"value": "720.6"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "12.7 g"
+								"value": "7.6 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "8.4 g"
+								"value": "4.6 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "11.9 g"
+								"value": "21.6 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.4 g"
+								"value": "20.9 g"
 							},
 							{
 								"key": "Protein",
-								"value": "3.2 g"
+								"value": "3.9 g"
 							},
 							{
 								"key": "Salz",
-								"value": "0.1 g"
+								"value": "0.2 g"
 							}
 						]
 					}
@@ -762,7 +764,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "4920.0"
+								"value": "4919.9"
 							},
 							{
 								"key": "Fett, Total",
