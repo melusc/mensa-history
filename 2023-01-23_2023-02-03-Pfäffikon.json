@@ -675,6 +675,7 @@
 							"menu": [
 								"Samosa mit Kartoffel-Gemüse-Füllung",
 								"Linsen-Dal",
+								"Roti-Brot",
 								"Gurken-Raita"
 							],
 							"declaration": []
@@ -1888,64 +1889,61 @@
 						]
 					},
 					{
-						"tags": [
-							{
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/glutenfree.svg",
-								"title": "Glutenfrei"
-							}
-						],
+						"tags": [],
 						"title": "Streetfood",
 						"menu": {
 							"menu": [
-								"Cocktailsauce",
+								"Chicken Nuggets",
 								"Pommes frites",
 								"Cocktailsauce"
 							],
-							"declaration": []
+							"declaration": [
+								"Poulet: Schweiz"
+							]
 						},
 						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
 						"allergens": [
 							{
-								"title": "Eier und Eierzeugnisse",
-								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/C-Ei.svg"
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
 							}
 						],
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "813.8"
+								"value": "913.9"
 							},
 							{
 								"key": "kj",
-								"value": "3457.4"
+								"value": "3886.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "53.8 g"
+								"value": "48.7 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "8.3 g"
+								"value": "7.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "56.4 g"
+								"value": "74.7 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "8.6 g"
+								"value": "6.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "4.2 g"
+								"value": "5.8 g"
 							},
 							{
 								"key": "Protein",
-								"value": "6.0 g"
+								"value": "24.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "1.9 g"
+								"value": "3.5 g"
 							}
 						]
 					}
