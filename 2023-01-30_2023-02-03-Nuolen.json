@@ -397,7 +397,7 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Kalbfleisch-Döner",
+								"Kalbfleisch-Döner Teller",
 								"Cocktail- oder Joghurtsauce",
 								"Pommes frites",
 								"Salatgarnitur"
@@ -600,7 +600,7 @@
 						"title": "Süesses",
 						"menu": {
 							"menu": [
-								"Caramelchöpfli mit Schlagrahm und gerösteten Mandeln"
+								"Caramelchöpfli"
 							],
 							"declaration": []
 						},
