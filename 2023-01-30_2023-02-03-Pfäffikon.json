@@ -398,11 +398,12 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Paniertes Schweinsschnitzel",
-								"Pommes frites"
+								"Poulet Cordon bleu",
+								"Pommes frites",
+								"Ketchup"
 							],
 							"declaration": [
-								"Schwein: Schweiz"
+								"Poulet Cordon Bleu Schweiz"
 							]
 						},
 						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
@@ -415,39 +416,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "699.3"
+								"value": "798.0"
 							},
 							{
 								"key": "kj",
-								"value": "3009.1"
+								"value": "3419.0"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "28.6 g"
+								"value": "32.1 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "6.9 g"
+								"value": "7.8 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "66.4 g"
+								"value": "83.6 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "6.3 g"
+								"value": "15.1 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "4.5 g"
+								"value": "5.4 g"
 							},
 							{
 								"key": "Protein",
-								"value": "26.6 g"
+								"value": "25.5 g"
 							},
 							{
 								"key": "Salz",
-								"value": "2.6 g"
+								"value": "4.6 g"
 							}
 						]
 					},
@@ -790,13 +791,11 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Panierte Pouletbrust",
-								"Pommes Chips",
-								"Tagesgemüse",
-								"Quark-Aioli"
+								"Paniertes Schweinsschnitzel",
+								"Pommes frites"
 							],
 							"declaration": [
-								"Poulet: Schweiz"
+								"Schwein: Schweiz"
 							]
 						},
 						"price": "Lernende CHF 10.00 / Lehrpers. CHF 15.00",
@@ -809,39 +808,39 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "652.5"
+								"value": "699.3"
 							},
 							{
 								"key": "kj",
-								"value": "2737.0"
+								"value": "3009.1"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "25.8 g"
+								"value": "28.6 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "2.8 g"
+								"value": "6.9 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "57.5 g"
+								"value": "66.4 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "12.2 g"
+								"value": "6.3 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "3.3 g"
+								"value": "4.5 g"
 							},
 							{
 								"key": "Protein",
-								"value": "45.0 g"
+								"value": "26.6 g"
 							},
 							{
 								"key": "Salz",
-								"value": "1.0 g"
+								"value": "2.6 g"
 							}
 						]
 					},
