@@ -207,8 +207,8 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Key-West-Burger",
-								"Rindfleischburger, Sesam-Bun, Eisberg, Tomate, gebackene Zwiebeln und Chili-Mayonnaise",
+								"Rindshamburger",
+								"Burger Bun, Eisberg, Tomate, Zwiebeln, Chili-Mayonnaise",
 								"Pommes frites",
 								"Ketchup"
 							],
@@ -277,7 +277,7 @@
 						"menu": {
 							"menu": [
 								"Chili sin carne",
-								"Pikantes Sojahack mit Peperoni, Tomaten, Mais, Bohnen und Koriander",
+								"Pikantes Sojahack mit Peperoni, Tomaten, Mais, Bohnen und ",
 								"Pilaw-Reis"
 							],
 							"declaration": []
