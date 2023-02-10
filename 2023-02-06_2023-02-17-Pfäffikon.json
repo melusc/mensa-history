@@ -864,7 +864,10 @@
 						"title": "Karma",
 						"menu": {
 							"menu": [
-								"Rote Linsen Thai Curry",
+								"Thai Curry",
+								"mit roten Linsen",
+								"Gemüse",
+								"Cocosmilch",
 								"Jasminreis"
 							],
 							"declaration": []
