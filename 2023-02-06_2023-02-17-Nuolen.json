@@ -648,7 +648,7 @@
 						"menu": {
 							"menu": [
 								"Wiener Backhendl",
-								"Pommes frites",
+								"Country Cuts",
 								"Ketchup"
 							],
 							"declaration": [
@@ -771,9 +771,8 @@
 								"Pizza Margherita",
 								"mit Mozzarella",
 								"oder",
-								"Pizza Funghi",
-								"mit Champignons ",
-								"und Mozzarella"
+								"Pizza Prosciutto",
+								"mit Vorderschinken und Mozzarella"
 							],
 							"declaration": [
 								"Schinken (Schwein): Schweiz"
@@ -1627,6 +1626,66 @@
 							{
 								"key": "Salz",
 								"value": "0.3 g"
+							}
+						]
+					},
+					{
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/vegetarian.svg",
+								"title": "Vegetarisch"
+							}
+						],
+						"title": "Süesses",
+						"menu": {
+							"menu": [
+								"Griessflan mit Waldbeeren"
+							],
+							"declaration": []
+						},
+						"price": "CHF 3.50",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "143.7"
+							},
+							{
+								"key": "kj",
+								"value": "586.5"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "3.7 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "2.2 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "20.4 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "17.7 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "1.5 g"
+							},
+							{
+								"key": "Protein",
+								"value": "6.1 g"
+							},
+							{
+								"key": "Salz",
+								"value": "0.1 g"
 							}
 						]
 					}
