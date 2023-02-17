@@ -616,9 +616,8 @@
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
-								"Angus Beef Burger",
-								"im Pizza Bagel mit Rucola, Tomaten,",
-								" Senf-Meerrettich-Dip",
+								"Engadin Mountain Burger",
+								"Rindsburger, Brioche-Bun, Engadiner Bergkäse, Speck, Rucola, Tomate und Senf-Meerrettich-Dip",
 								"Pommes frites"
 							],
 							"declaration": [
@@ -743,7 +742,7 @@
 							"menu": [
 								"Pasta-Plausch",
 								"Teigwaren",
-								"Fleisch Sauce ",
+								"Sauce Bolognese",
 								"Tomatensauce"
 							],
 							"declaration": [
@@ -807,7 +806,12 @@
 				},
 				"menu": [
 					{
-						"tags": [],
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/fish.svg",
+								"title": "Nachhaltiger Fisch"
+							}
+						],
 						"title": "Wältreis",
 						"menu": {
 							"menu": [

@@ -681,7 +681,7 @@
 						"menu": {
 							"menu": [
 								"Engadin Mountain Burger",
-								"Rindsburger, Brioche-Bun, Engadiner Bergkäse, Speck, Eisberg, Tomate und Senf-Meerrettich-Dip",
+								"Rindsburger, Brioche-Bun, Engadiner Bergkäse, Speck, Rucola, Tomate und Senf-Meerrettich-Dip",
 								"Pommes frites"
 							],
 							"declaration": [
@@ -748,9 +748,8 @@
 						"title": "Karma",
 						"menu": {
 							"menu": [
-								"Süsskartoffel-Auberginen Curry ",
-								"mit Paneer, Kokosmilch ",
-								"und Kurkuma-Reis"
+								"BIO Paneersteak",
+								"Auberginen mit Kokosmilch und Kurkuma"
 							],
 							"declaration": []
 						},
@@ -876,7 +875,12 @@
 				},
 				"menu": [
 					{
-						"tags": [],
+						"tags": [
+							{
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/fish.svg",
+								"title": "Nachhaltiger Fisch"
+							}
+						],
 						"title": "Wältreis",
 						"menu": {
 							"menu": [
