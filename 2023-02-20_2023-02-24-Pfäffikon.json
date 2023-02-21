@@ -42,7 +42,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "2889.4"
+								"value": "2861.8"
 							},
 							{
 								"key": "Fett, Total",
@@ -58,7 +58,7 @@
 							},
 							{
 								"key": "Zucker",
-								"value": "24.3 g"
+								"value": "21.8 g"
 							},
 							{
 								"key": "Nahrungsfaser",
@@ -90,7 +90,8 @@
 							"menu": [
 								"Auberginen mit Tomatensauce und Mozzarella",
 								"Hausgemachtes Hummus",
-								" "
+								"Gebackenes Wurzelgemüse",
+								"Tomatensauce"
 							],
 							"declaration": []
 						},
@@ -108,11 +109,11 @@
 							},
 							{
 								"key": "kj",
-								"value": "2777.0"
+								"value": "2715.4"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "41.0 g"
+								"value": "40.8 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
@@ -120,19 +121,19 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "43.3 g"
+								"value": "42.9 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "22.1 g"
+								"value": "21.5 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "9.2 g"
+								"value": "9.0 g"
 							},
 							{
 								"key": "Protein",
-								"value": "24.9 g"
+								"value": "25.5 g"
 							},
 							{
 								"key": "Salz",
@@ -146,7 +147,7 @@
 						"menu": {
 							"menu": [
 								"Ofenfleischkäse",
-								"Geröstertes Baguette",
+								"Knoblauch-Baguette",
 								"Pommes frites"
 							],
 							"declaration": [
@@ -298,35 +299,35 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "600.0"
+								"value": "601.7"
 							},
 							{
 								"key": "kj",
-								"value": "2478.6"
+								"value": "2441.5"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "39.4 g"
+								"value": "39.5 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "12.7 g"
+								"value": "12.8 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "37.8 g"
+								"value": "37.6 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "14.0 g"
+								"value": "13.1 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "9.0 g"
+								"value": "8.7 g"
 							},
 							{
 								"key": "Protein",
-								"value": "13.5 g"
+								"value": "13.8 g"
 							},
 							{
 								"key": "Salz",
@@ -436,7 +437,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "3209.9"
+								"value": "3181.8"
 							},
 							{
 								"key": "Fett, Total",
@@ -452,7 +453,7 @@
 							},
 							{
 								"key": "Zucker",
-								"value": "14.3 g"
+								"value": "11.8 g"
 							},
 							{
 								"key": "Nahrungsfaser",
@@ -497,7 +498,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "3768.5"
+								"value": "3762.9"
 							},
 							{
 								"key": "Fett, Total",
@@ -509,11 +510,11 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "93.7 g"
+								"value": "93.2 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.4 g"
+								"value": "7.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
@@ -521,7 +522,7 @@
 							},
 							{
 								"key": "Protein",
-								"value": "44.2 g"
+								"value": "45.2 g"
 							},
 							{
 								"key": "Salz",
@@ -692,7 +693,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "2209.1"
+								"value": "2195.2"
 							},
 							{
 								"key": "Fett, Total",
@@ -700,19 +701,19 @@
 							},
 							{
 								"key": "Fettsäuren gesättigt",
-								"value": "4.6 g"
+								"value": "4.7 g"
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "74.6 g"
+								"value": "73.7 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "16.6 g"
+								"value": "16.8 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "5.2 g"
+								"value": "5.6 g"
 							},
 							{
 								"key": "Protein",
@@ -820,7 +821,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "2526.6"
+								"value": "2510.8"
 							},
 							{
 								"key": "Fett, Total",
@@ -836,7 +837,7 @@
 							},
 							{
 								"key": "Zucker",
-								"value": "11.9 g"
+								"value": "11.1 g"
 							},
 							{
 								"key": "Nahrungsfaser",
@@ -891,11 +892,11 @@
 							},
 							{
 								"key": "kj",
-								"value": "2912.6"
+								"value": "2945.0"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "21.3 g"
+								"value": "21.5 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
@@ -903,7 +904,7 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "83.4 g"
+								"value": "85.2 g"
 							},
 							{
 								"key": "Zucker",
@@ -911,11 +912,11 @@
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "8.7 g"
+								"value": "9.3 g"
 							},
 							{
 								"key": "Protein",
-								"value": "36.1 g"
+								"value": "36.5 g"
 							},
 							{
 								"key": "Salz",
