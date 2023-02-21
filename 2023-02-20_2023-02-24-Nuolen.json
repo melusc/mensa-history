@@ -213,8 +213,8 @@
 						"menu": {
 							"menu": [
 								"Gebratener Fleischkäse",
-								"Kartoffelpüree",
-								"Rosenkohl",
+								"Kartoffelpüree,",
+								"Gemüse und",
 								"Bratensauce"
 							],
 							"declaration": [
@@ -281,10 +281,9 @@
 						"title": "Karma",
 						"menu": {
 							"menu": [
-								"Gnocchi",
+								"Teigwaren",
 								"Tomaten-Basilikum-Sauce",
 								"Mediterranes Gemüse",
-								"Grana Padano",
 								"Grana Padano gerieben"
 							],
 							"declaration": []
