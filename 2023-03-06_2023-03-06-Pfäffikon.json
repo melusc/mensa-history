@@ -1,0 +1,77 @@
+{
+	"data": {
+		"menu": [
+			{
+				"day": "Montag",
+				"date": {
+					"year": "2023",
+					"month": "03",
+					"day": "06"
+				},
+				"menu": [
+					{
+						"tags": [],
+						"title": "Streetfood",
+						"menu": {
+							"menu": [
+								"Chicken Nuggets",
+								"Pommes frites",
+								"Cocktailsauce"
+							],
+							"declaration": [
+								"Poulet: Schweiz"
+							]
+						},
+						"price": "Lernende CHF 8.00 / Lehrpers. CHF 13.00",
+						"allergens": [
+							{
+								"title": "Glutenhaltiges Getreide",
+								"icon": "https://www.eldora-schulenpfaeffikon.ch/_Resources/Static/Packages/Dotpulse.Eldora.SharedContent/Assets/A-Gluten.svg"
+							}
+						],
+						"nutritions": [
+							{
+								"key": "kcal",
+								"value": "1017.9"
+							},
+							{
+								"key": "kj",
+								"value": "4235.7"
+							},
+							{
+								"key": "Fett, Total",
+								"value": "69.6 g"
+							},
+							{
+								"key": "Fettsäuren gesättigt",
+								"value": "8.5 g"
+							},
+							{
+								"key": "Kohlenhydrate",
+								"value": "69.2 g"
+							},
+							{
+								"key": "Zucker",
+								"value": "4.7 g"
+							},
+							{
+								"key": "Nahrungsfaser",
+								"value": "11.1 g"
+							},
+							{
+								"key": "Protein",
+								"value": "19.8 g"
+							},
+							{
+								"key": "Salz",
+								"value": "3.0 g"
+							}
+						]
+					}
+				]
+			}
+		],
+		"location": "Pfäffikon"
+	},
+	"version": 3
+}
