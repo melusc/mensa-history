@@ -8,9 +8,9 @@
 	"private": true,
 	"devDependencies": {
 		"@lusc/tsconfig": "^2.1.0",
-		"@types/node": "^18.14.4",
+		"@types/node": "^18.15.0",
 		"prettier": "^2.8.4",
-		"rimraf": "^4.2.0",
+		"rimraf": "^4.4.0",
 		"typescript": "^4.9.5",
 		"xo": "^0.53.1"
 	},
