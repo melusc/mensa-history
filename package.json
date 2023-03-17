@@ -8,10 +8,10 @@
 	"private": true,
 	"devDependencies": {
 		"@lusc/tsconfig": "^2.1.0",
-		"@types/node": "^18.15.0",
+		"@types/node": "^18.15.3",
 		"prettier": "^2.8.4",
 		"rimraf": "^4.4.0",
-		"typescript": "^4.9.5",
+		"typescript": "^5.0.2",
 		"xo": "^0.53.1"
 	},
 	"dependencies": {
@@ -24,5 +24,5 @@
 		"start": "node dist/index.js",
 		"dev": "yarn build && yarn start"
 	},
-	"packageManager": "yarn@3.4.1"
+	"packageManager": "yarn@3.5.0"
 }
