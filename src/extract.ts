@@ -35,18 +35,21 @@ const getAllergens: DataExtractor<
 	const $list = $menu.find(
 		'.menu-nutrition-infos-popup__body__allergens__icons',
 	);
-	return $list.toArray().map(element => {
-		const $item = $(element);
-		const $img = $item.find('img');
-		const icon = $img.attr('src');
-		assert(icon);
-		const title = $img.attr('title');
-		assert(title);
-		return {
-			title,
-			icon,
-		};
-	});
+	return $list
+		.toArray()
+		.filter(element => !$(element).is(':empty'))
+		.map(element => {
+			const $item = $(element);
+			const $img = $item.find('img');
+			const icon = $img.attr('src');
+			assert(icon);
+			const title = $img.attr('title');
+			assert(title);
+			return {
+				title,
+				icon,
+			};
+		});
 };
 
 const getNutritions: DataExtractor<
