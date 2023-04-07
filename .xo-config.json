@@ -1,5 +1,20 @@
 {
 	"rules": {
-		"@typescript-eslint/indent": "off"
+		"no-mixed-spaces-and-tabs": "off",
+		"import/order": [
+			"error",
+			{
+				"newlines-between": "always",
+				"warnOnUnassignedImports": true
+			}
+		],
+		"@typescript-eslint/indent": "off",
+		"@typescript-eslint/quotes": [
+			"error",
+			"single",
+			{
+				"avoidEscape": true
+			}
+		]
 	}
 }

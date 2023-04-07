@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 
 import {load, type AnyNode, type Cheerio, type CheerioAPI} from 'cheerio';
+
 import type {DayMenu, SingleItem} from './types.js';
 
 const getHtml = async (url: URL) => {
