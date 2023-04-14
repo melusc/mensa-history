@@ -10,9 +10,9 @@
 		"@lusc/tsconfig": "^2.2.0",
 		"@types/node": "^18.15.11",
 		"prettier": "^2.8.7",
-		"rimraf": "^4.4.1",
+		"rimraf": "^5.0.0",
 		"typescript": "^5.0.4",
-		"xo": "^0.54.0"
+		"xo": "^0.54.1"
 	},
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.12"
