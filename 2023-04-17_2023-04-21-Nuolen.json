@@ -37,7 +37,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "3663.4"
+								"value": "3663.2"
 							},
 							{
 								"key": "Fett, Total",
@@ -49,7 +49,7 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "105.3 g"
+								"value": "105.1 g"
 							},
 							{
 								"key": "Zucker",
@@ -100,11 +100,11 @@
 							},
 							{
 								"key": "kj",
-								"value": "3164.6"
+								"value": "3164.0"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "27.8 g"
+								"value": "27.7 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
@@ -112,7 +112,7 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "103.2 g"
+								"value": "102.7 g"
 							},
 							{
 								"key": "Zucker",
@@ -120,11 +120,11 @@
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "6.9 g"
+								"value": "6.8 g"
 							},
 							{
 								"key": "Protein",
-								"value": "20.0 g"
+								"value": "19.9 g"
 							},
 							{
 								"key": "Salz",
@@ -221,11 +221,11 @@
 							},
 							{
 								"key": "kj",
-								"value": "2617.1"
+								"value": "2608.8"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "27.6 g"
+								"value": "27.5 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
@@ -233,19 +233,19 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "53.8 g"
+								"value": "53.0 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "10.8 g"
+								"value": "10.3 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "3.2 g"
+								"value": "2.9 g"
 							},
 							{
 								"key": "Protein",
-								"value": "37.6 g"
+								"value": "37.5 g"
 							},
 							{
 								"key": "Salz",
@@ -284,11 +284,11 @@
 							},
 							{
 								"key": "kj",
-								"value": "2247.3"
+								"value": "2210.2"
 							},
 							{
 								"key": "Fett, Total",
-								"value": "16.2 g"
+								"value": "16.1 g"
 							},
 							{
 								"key": "Fettsäuren gesättigt",
@@ -296,11 +296,11 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "46.8 g"
+								"value": "45.4 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "8.7 g"
+								"value": "7.6 g"
 							},
 							{
 								"key": "Nahrungsfaser",
@@ -308,7 +308,7 @@
 							},
 							{
 								"key": "Protein",
-								"value": "13.7 g"
+								"value": "14.2 g"
 							},
 							{
 								"key": "Salz",
@@ -407,11 +407,11 @@
 						"nutritions": [
 							{
 								"key": "kcal",
-								"value": "647.6"
+								"value": "655.7"
 							},
 							{
 								"key": "kj",
-								"value": "2720.2"
+								"value": "2755.0"
 							},
 							{
 								"key": "Fett, Total",
@@ -423,19 +423,19 @@
 							},
 							{
 								"key": "Kohlenhydrate",
-								"value": "71.7 g"
+								"value": "73.8 g"
 							},
 							{
 								"key": "Zucker",
-								"value": "7.0 g"
+								"value": "9.0 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "1.1 g"
+								"value": "1.2 g"
 							},
 							{
 								"key": "Protein",
-								"value": "29.7 g"
+								"value": "29.8 g"
 							},
 							{
 								"key": "Salz",
@@ -593,7 +593,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "2869.1"
+								"value": "2853.4"
 							},
 							{
 								"key": "Fett, Total",
@@ -609,7 +609,7 @@
 							},
 							{
 								"key": "Zucker",
-								"value": "15.3 g"
+								"value": "14.5 g"
 							},
 							{
 								"key": "Nahrungsfaser",
@@ -650,7 +650,7 @@
 							},
 							{
 								"key": "kj",
-								"value": "1981.2"
+								"value": "1974.0"
 							},
 							{
 								"key": "Fett, Total",
@@ -666,11 +666,11 @@
 							},
 							{
 								"key": "Zucker",
-								"value": "8.3 g"
+								"value": "8.0 g"
 							},
 							{
 								"key": "Nahrungsfaser",
-								"value": "6.9 g"
+								"value": "6.8 g"
 							},
 							{
 								"key": "Protein",
