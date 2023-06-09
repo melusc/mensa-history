@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"private": true,
 	"devDependencies": {
-		"@lusc/tsconfig": "^2.2.0",
+		"@lusc/tsconfig": "^2.3.0",
 		"@types/node": "^20.2.5",
 		"prettier": "^2.8.8",
 		"rimraf": "^5.0.1",
